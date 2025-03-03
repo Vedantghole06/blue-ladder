@@ -343,7 +343,7 @@ const Home = () => {
                             </div>
 
                             <div className="md:w-1/3 flex justify-center">
-                                <img src="/logo.png" alt="Logo" />
+                                <img src="./src/assets/logo.png" alt="Logo" />
                             </div>
                         </div>
                     </header>
