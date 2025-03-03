@@ -19,7 +19,7 @@ const PebDesigning = () => {
         {
             id: 2,
             title: "Fast Construction",
-            description: " Quick assembly and installation for faster project completion.",
+            description: "Quick assembly and installation for faster project completion.",
 
         },
         {
@@ -35,7 +35,7 @@ const PebDesigning = () => {
         {
             id: 5,
             title: "Sustainable Materials",
-            description: "Using eco-friendly materials and practices for a greener construction.",
+            description: " Using eco-friendly materials and practices for a greener construction",
         },
     ];
 
@@ -47,7 +47,7 @@ const PebDesigning = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/pebDesiging-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/pebDesiging-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -79,7 +79,7 @@ const PebDesigning = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -110,7 +110,7 @@ const PebDesigning = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/pebDesigning-img1.png"
+                                src="/src/assets/pebDesigning-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -139,7 +139,7 @@ const PebDesigning = () => {
                                 </h2>
 
                                 <p className="mb-8 text-center">
-                                    Precision, safety, and efficiency in steel structure erection, scaffolding, and heavy lifting. We ensure seamless assembly for durable and reliable constructions.
+                                    Specialized Pre-Engineered Building (PEB) designs for warehouses, factories, and commercial spaces. We deliver cost-effective, durable, and efficient structural solutions tailored to your needs.
                                 </p>
 
                                 <button className="w-full py-3 px-6 bg-yellow-500 hover:bg-yellow-600 text-teal-900 font-medium rounded-md transition duration-300 text-center">
@@ -149,9 +149,9 @@ const PebDesigning = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/civil-3d-model.png"
+                                        src="/src/assets/pebDesigning-3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -162,11 +162,11 @@ const PebDesigning = () => {
                             <h2 className="text-3xl text-center font-bold mb-6 text-gray-900">PEB Designing</h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-xl">
                                     PEB design services refer to the process of designing and engineering a pre-engineered building to meet the specific needs and requirements of a client. This typically involves creating detailed drawings and specifications for the building, including its size, shape, layout, and structural components. PEB design services may be provided by specialized engineering firms or by companies that manufacture and sell pre-engineered buildings. The design process typically involves working closely with the client to understand their needs and goals, and then using computer-aided design (CAD) software to create detailed plans for the building.
                                 </p>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-xl">
 
 
                                     Some of the benefits of using pre-engineered buildings include their cost-effectiveness, versatility, and speed of construction. They can be used for a wide range of applications, including warehouses, manufacturing facilities, office buildings, and other commercial and industrial structures.
@@ -179,11 +179,11 @@ const PebDesigning = () => {
 
             <div className="w-full bg-white py-12 px-4 md:px-8">
                 <div className="container mx-auto">
-                    <div className="flex flex-col md:flex-row items-center justify-between">
+                    <div className="flex flex-col md:flex-row items-center justify-evenly">
                         {/* Left side - Features list */}
                         <div className="w-full md:w-3/5 pr-0 md:pr-8">
                             <h2 className="text-2xl font-bold mb-8 flex items-center">
-                                Features of Our PEB Designing 🚧 🏗️
+                                Features of Civil Structure Design 🏗️
                             </h2>
 
                             <div className="space-y-5">
@@ -195,8 +195,8 @@ const PebDesigning = () => {
                                             </div>
                                         </div>
                                         <div className="ml-3">
-                                            <span className="font-semibold text-gray-900">{feature.title}</span>
-                                            <span className="text-gray-700"> – {feature.description}</span>
+                                            <span className="font-semibold text-gray-900 text-lg">{feature.title}</span>
+                                            <span className="text-gray-700 text-lg"> – {feature.description}</span>
                                         </div>
                                     </div>
                                 ))}
@@ -206,7 +206,7 @@ const PebDesigning = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/pebDesigning-img2.png"
+                                src="/src/assets/pebDesigning-img2.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-96 object-cover rounded-4xl"
                             />

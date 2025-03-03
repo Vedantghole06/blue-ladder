@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef} from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Paperclip } from 'lucide-react';
 
 const Home = () => {
@@ -7,19 +7,19 @@ const Home = () => {
     const slides = [
         {
             id: 1,
-            image: '/public/carousel-img1.jpeg',
+            image: './src/assets/carousel-img1.jpeg',
             title: 'Our Vision shows what we are striving for.',
             alt: 'Modern city buildings with blue sky'
         },
         {
             id: 2,
-            image: '/carousel-img2.png',
+            image: './src/assets/carousel-img2.png',
             title: 'Innovation drives our future growth.',
             alt: 'Corporate office interior'
         },
         {
             id: 3,
-            image: '/carousel-img3.png',
+            image: './src/assets/carousel-img3.png',
             title: 'Building sustainable solutions together.',
             alt: 'Green building with solar panels'
         }
@@ -49,17 +49,17 @@ const Home = () => {
 
     const services = [
         {
-            image: "/api/placeholder/400/300",
+            image: "./src/assets/home-service-img1.png",
             title: "Pre Engineered Steel Structures",
             icon: (<Paperclip size={24} />)
         },
         {
-            image: "/api/placeholder/400/300",
+            image: "./src/assets/home-service-img2.png",
             title: "Smart and Green Buildings",
             icon: (<Paperclip size={24} />)
         },
         {
-            image: "/api/placeholder/400/300",
+            image: "./src/assets/home-service-img3.png",
             title: "Engineering & Technical Advisory Services",
             icon: (<Paperclip size={24} />)
         }
@@ -73,44 +73,44 @@ const Home = () => {
     const clients = [
         {
             name: "Flipkart",
-            logo: "/flipkart.png",
+            logo: "./src/assets/flipkart.png",
             color: "text-blue-500"
         },
         {
             name: "Delhivery",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/delhivery.png",
             color: "text-red-500"
         },
         {
             name: "Amazon",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/amazon.png",
             color: "text-orange-500"
         },
         {
             name: "Nykaa",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/nykaa.png",
             color: "text-pink-500"
         },
         {
             name: "Flipkart",
-            logo: "/flipkart.png",
+            logo: "./src/assets/flipkart.png",
             color: "text-blue-500"
         },
         {
             name: "Delhivery",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/delhivery.png",
             color: "text-red-500"
         },
         {
             name: "Amazon",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/amazon.png",
             color: "text-orange-500"
         },
         {
             name: "Nykaa",
-            logo: "/api/placeholder/150/80",
+            logo: "./src/assets/nykaa.png",
             color: "text-pink-500"
-        },
+        }
     ];
 
     const getVisibleCount = () => {
@@ -327,17 +327,17 @@ const Home = () => {
                 <div className="container mx-auto px-4 md:px-8 py-8 relative z-10">
                     {/* Header Section */}
                     <header className="mb-8">
-                        <h1 className="text-xl text-center md:text-2xl font-bold text-blue-900 mb-6">
+                        <h1 className="text-xl text-center md:text-2xl font-bold mb-6">
                             Pre-Engineered Building Solutions and Manufacturers
                         </h1>
 
                         <div className="flex flex-col md:flex-row gap-8 items-start">
                             <div className="md:w-2/3">
-                                <p className="text-sm leading-relaxed text-gray-700 mb-6">
+                                <p className="text-lg leading-relaxed text-gray-700 mb-6">
                                     Blueladder EPC Solutions Private Limited is the Engineered Building supplier and Manufacturers was established in the year 2015, as a Pre-Engineered Manufacturer in Nagpur. We cater to the Pre Engineered Building sector in Nagpur, Pune, Mumbai, Ahmedabad, Hyderabad, Bangalore, Satara and Maharashtra and Central India.
                                 </p>
 
-                                <p className="text-sm leading-relaxed text-gray-700 mb-6">
+                                <p className="text-lg leading-relaxed text-gray-700 mb-6">
                                     The Blueladder's headquarter is situated in Nagpur, with its regional operational offices. We are proud to have completed PEB successful PEB projects for various clients across India. We are known to have one of the best qualified team of professionals and specialists. Besides Pre Engineered Steel Buildings, Blueladder provides excellent Engineering, Procurement & Construction turnkey solutions, and technical and advisory services.
                                 </p>
                             </div>
@@ -354,7 +354,7 @@ const Home = () => {
                             Leading Pre-Designed Structure PEB Construction Company
                         </h2>
 
-                        <p className="text-sm leading-relaxed text-gray-700 mb-6">
+                        <p className="text-lg leading-relaxed text-center mb-6">
                             We are one of the leading and dedicated manufacturers of Pre-Engineered buildings and all kinds of Roofing Products and accessories. The Pre-engineered buildings constructed by us are best suited for industrial structures like warehouses, factory buildings, sheds, commercial buildings, airport terminal buildings, aircraft hangars, metro stations, poultry farms, multi-story buildings, parking sheds and a wide range of other building solutions.
                         </p>
                     </section>
@@ -366,7 +366,7 @@ const Home = () => {
                         <div className="w-full justify-evenly flex flex-col md:flex-row items-center">
                             {/* Left side - Philosophy title */}
                             <div className="md:w-1/3 text-center md:text-left mb-8 md:mb-0">
-                                <h2 className="text-3xl md:text-4xl font-serif text-blue-900 ">
+                                <h2 className="text-3xl md:text-4xl font-serif text-center ">
                                     Our <br /> PHILOSOPHY
                                 </h2>
                             </div>
@@ -375,17 +375,17 @@ const Home = () => {
                             <div className="md:w-2/3 relative">
                                 <div className="flex flex-col gap-5 max-w-md">
                                     {/* Vision */}
-                                    <div className="bg-amber-200 px-4 py-3 rounded ">
-                                        <p className="text-gray-800">Our Vision shows what we are striving for.</p>
+                                    <div className="bg-[#DDCCA6] px-4 py-3 rounded text-white">
+                                        <p>Our Vision shows what we are striving for.</p>
                                     </div>
 
                                     {/* Mission */}
-                                    <div className="bg-blue-500 px-4 py-3 rounded text-white">
+                                    <div className="bg-[#6A9AB0] px-4 py-3 rounded text-white">
                                         <p>Our Mission highlights how we want to achieve it.</p>
                                     </div>
 
                                     {/* Core Values */}
-                                    <div className="bg-blue-600 px-4 py-3 rounded text-white">
+                                    <div className="bg-[#3A6D8C] px-4 py-3 rounded text-white">
                                         <p>Our core values demonstrate how we will achieve them.</p>
                                     </div>
                                 </div>
@@ -408,16 +408,16 @@ const Home = () => {
                         {/* Vision Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z" />
-                                </svg>
+                                <img src="./src/assets/vision.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Vision</h3>
 
-                            <p className="text-sm text-gray-600 mb-4">
-                                We at Blueladder EPC Solutions offer innovative & creative building designs to provide best, easy and value pre-engineered structures of steel.
+                            <p className="text-lg text-gray-600 mb-4">
+                                We at BlueLadder EPC Solutions <br />
+                                started the company with a vision <br />
+                                to provide fast, easy and unique <br />
+                                pre-engineered structures of steel.
                             </p>
 
                             <a href="#" className="text-blue-600 text-xs font-semibold hover:underline">READ MORE →</a>
@@ -426,15 +426,16 @@ const Home = () => {
                         {/* Mission Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-                                </svg>
+                                <img src="./src/assets/mission.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Mission</h3>
 
-                            <p className="text-sm text-gray-600 mb-4">
-                                We anticipate and control client's specific building challenges by imparting unmatched structures.
+                            <p className="text-lg text-gray-600 mb-4">
+                                We envisage becoming central <br />
+                                India’s leading modern PEB <br />
+                                company by replacing <br />
+                                conventional structures.
                             </p>
 
                             <a href="#" className="text-blue-600 text-xs font-semibold hover:underline">READ MORE →</a>
@@ -443,15 +444,16 @@ const Home = () => {
                         {/* Core Value Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
-                                </svg>
+                                <img src="./src/assets/core.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Core Value</h3>
 
-                            <p className="text-sm text-gray-600 mb-4">
-                                We at Blueladder EPC Solutions offer innovative & creative building designs to provide best, easy and value pre-engineered structures of steel.
+                            <p className="text-lg text-gray-600 mb-4">
+                                We at Blueladder EPC Solutions <br />
+                                offer innovative & creative building <br />
+                                designs to provide best, easy and <br />
+                                value pre-engineered structures of steel.
                             </p>
 
                             <a href="#" className="text-blue-600 text-xs font-semibold hover:underline">READ MORE →</a>
@@ -466,12 +468,12 @@ const Home = () => {
             <div className="bg-gray-100 py-12 px-4">
                 <div className="container mx-auto max-w-5xl">
                     {/* Header */}
-                    <h2 className="text-2xl md:text-3xl font-medium text-blue-600 text-center mb-6">
+                    <h2 className="text-2xl md:text-3xl font-medium text-[#345CA5] text-center mb-6">
                         Pre Engineered Building (PEB)Manufacturing and Assembling
                     </h2>
 
                     {/* Subheading/Description */}
-                    <p className="text-gray-700 text-center mb-10 max-w-3xl mx-auto">
+                    <p className="text-gray-700 text-center mb-10 max-w-3xl mx-auto text-lg">
                         View this video to learn about Blue Ladder EPC Solutions Pvt Ltd's working style with Pre
                         Engineered Buildings across India with the highest manufacturing standards. Some
                         glimpses of our works have been exhibited and showcased.
@@ -489,15 +491,17 @@ const Home = () => {
                                 />
                             </div>
 
-                            <p className="text-gray-800 font-medium mb-6">
-                                Click here to view our state of the art PEB manufacturing facility
+                            <p className="text-blue-800 font-medium text-lg mb-6">
+                                Click here to view our state of <br />
+                                the art PEB manufacturing <br />
+                                facility
                             </p>
 
-                            <p className="text-gray-600 mb-4">
+                            <p className="text-gray-500 text-lg mb-4">
                                 contact@blueladderspc.com
                             </p>
 
-                            <p className="text-gray-700">
+                            <p className="text-gray-500 text-lg">
                                 Blue Ladder EPC Solutions
                             </p>
                         </div>
@@ -526,7 +530,7 @@ const Home = () => {
                     </div>
 
                     {/* Footer text */}
-                    <p className="text-gray-700 text-center max-w-4xl mx-auto">
+                    <p className="text-gray-700 text-center text-lg max-w-4xl mx-auto">
                         BlueLadder EPC is a global enterprise that specializes in providing solutions for Pre-engineered Buildings and Steel Structures.
                     </p>
                 </div>
@@ -551,28 +555,28 @@ const Home = () => {
                         {/* Benefits Cards */}
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 relative z-10">
                             {/* Top Left Card */}
-                            <div className="bg-blue-600 text-white p-5 rounded-lg shadow-md text-center ml-0 md:ml-8">
+                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center ml-0 md:ml-8">
                                 <p className="text-base md:text-lg">
                                     Pre-engineered building structures have lightweight construction and speedy installation.
                                 </p>
                             </div>
 
                             {/* Top Right Card */}
-                            <div className="bg-blue-600 text-white p-5 rounded-lg shadow-md text-center mr-0 md:mr-8">
+                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center mr-0 md:mr-8">
                                 <p className="text-base md:text-lg">
                                     The building's insulated walls and facets enhance weatherproofing and energy efficiency.
                                 </p>
                             </div>
 
                             {/* Middle Card */}
-                            <div className="bg-blue-600 text-white p-5 rounded-lg shadow-md text-center mx-auto col-span-1 md:col-span-2 max-w-sm">
+                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center mx-auto col-span-1 md:col-span-2 max-w-sm">
                                 <p className="text-base md:text-lg">
                                     PEB structures require low maintenance due to high-quality materials and precise manufacturing.
                                 </p>
                             </div>
 
                             {/* Bottom Right Card (Responsive Order Changed) */}
-                            <div className="bg-blue-600 text-white p-5 rounded-lg shadow-md text-center md:col-start-2 md:mr-8">
+                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center md:col-start-2 md:mr-8">
                                 <p className="text-base md:text-lg">
                                     Pre-engineered buildings have a variety of finishing options that add aesthetic appeal.
                                 </p>
@@ -685,13 +689,13 @@ const Home = () => {
             <div className="max-w-6xl mx-auto p-4 bg-white">
                 <h1 className="text-3xl font-medium text-[#345CA5] mb-8">Our Products & Services</h1>
 
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {services.map((service, index) => (
                         <div key={index} className="rounded-lg overflow-hidden shadow-md">
                             <img
                                 src={service.image}
                                 alt={service.title}
-                                className="w-full h-48 object-cover"
+                                className="w-full h-60 object-cover"
                             />
                             <div className="p-4 flex items-center">
                                 <div className="text-[#345CA5] mr-2">
@@ -708,7 +712,7 @@ const Home = () => {
             {/* Our client */}
 
             <div className="max-w-6xl mx-auto p-4 bg-white">
-                <h1 className="text-3xl font-medium text-blue-600 text-center mb-12">Who we've Worked With</h1>
+                <h1 className="text-3xl font-medium text-[#345CA5] text-center mb-12">Who we've Worked With</h1>
 
                 <div className="overflow-hidden">
                     <div
@@ -740,15 +744,15 @@ const Home = () => {
 
 
             <div className="container mx-auto px-4 py-12">
-                <h2 className="text-3xl md:text-4xl text-center font-medium text-blue-700 mb-10">
+                <h2 className="text-3xl md:text-4xl text-center font-medium text-[#345CA5] mb-10">
                     Our Channel Partners
                 </h2>
 
-                <div className="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-16 lg:gap-24">
+                <div className="flex flex-col md:flex-row justify-evenly items-center gap-8 md:gap-16 lg:gap-24">
                     {/* Tata Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="/api/placeholder/192/96"
+                            src="./src/assets/tata.png"
                             alt="Tata Steel Logo"
                             className="w-full h-auto"
                         />
@@ -757,7 +761,7 @@ const Home = () => {
                     {/* JSW Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="/api/placeholder/192/96"
+                            src="./src/assets/jsw.png"
                             alt="JSW Steel Logo"
                             className="w-full h-auto"
                         />
@@ -766,7 +770,7 @@ const Home = () => {
                     {/* Tata BlueScope Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="/api/placeholder/192/96"
+                            src="./src/assets/tata1.png"
                             alt="Tata BlueScope Steel Logo"
                             className="w-full h-auto"
                         />
@@ -780,7 +784,7 @@ const Home = () => {
 
 
             <div className="testimonial-wrapper mx-auto px-5 py-14">
-                <h2 className="slider-heading text-3xl md:text-4xl text-center font-medium text-blue-700 mb-12">
+                <h2 className="slider-heading text-3xl md:text-4xl text-center font-medium text-[#345CA5] mb-12">
                     Here is what our Clients are saying About us
                 </h2>
 
@@ -825,7 +829,7 @@ const Home = () => {
                         {/* Previous Button */}
                         <button
                             onClick={goToPrevSlide}
-                            className="prev-btn text-blue-600 text-3xl hover:text-blue-800 focus:outline-none"
+                            className="prev-btn text-[#345CA5] text-3xl hover:text-blue-800 focus:outline-none"
                             aria-label="Previous testimonial"
                         >
                             &#10094;
@@ -847,7 +851,7 @@ const Home = () => {
                         {/* Next Button */}
                         <button
                             onClick={goToNextSlide}
-                            className="next-btn text-blue-600 text-3xl hover:text-blue-800 focus:outline-none"
+                            className="next-btn text-[#345CA5] text-3xl hover:text-blue-800 focus:outline-none"
                             aria-label="Next testimonial"
                         >
                             &#10095;

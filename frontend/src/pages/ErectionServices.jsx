@@ -46,7 +46,7 @@ const ErectionServices = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/erection-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/erection-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -78,7 +78,7 @@ const ErectionServices = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -109,7 +109,7 @@ const ErectionServices = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/erection-img1.png"
+                                src="/src/assets/erection-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -120,7 +120,7 @@ const ErectionServices = () => {
                 <div className="relative z-10 container mx-auto px-4 py-12">
                     <div className="flex flex-col md:flex-row justify-evenly">
                         {/* Left Panel - Dark Blue Card */}
-                        <div className="w-full md:w-1/3 bg-[#024965] text-white rounded-lg overflow-hidden shadow-lg">
+                        <div className="w-full md:w-1/4 bg-[#024965] text-white rounded-4xl overflow-hidden shadow-lg">
                             <div className="p-6 relative">
                                 {/* Decorative curved lines in top right */}
                                 <div className="absolute top-0 right-0">
@@ -148,9 +148,9 @@ const ErectionServices = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/3d-model.png"
+                                        src="/src/assets/3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -161,7 +161,7 @@ const ErectionServices = () => {
                             <h2 className="text-3xl text-center font-bold mb-6 text-gray-900">Erection Services</h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-xl">
                                     At Blueladder Engineering Company, we specialize in providing top-quality civil erection
                                     services for a wide range of projects. From small residential developments to large-scale
                                     commercial and industrial projects, we have the expertise and resources to handle all of
@@ -172,7 +172,7 @@ const ErectionServices = () => {
                                     highest standards of quality.
                                 </p>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-xl">
                                     In addition to our exceptional civil erection services, we also offer a full range of
                                     engineering and consulting services. Our team of professionals includes engineers,
                                     architects, and project managers who are dedicated to helping our clients achieve their
@@ -204,8 +204,8 @@ const ErectionServices = () => {
                                             </div>
                                         </div>
                                         <div className="ml-3">
-                                            <span className="font-semibold text-gray-900">{feature.title}</span>
-                                            <span className="text-gray-700"> – {feature.description}</span>
+                                            <span className="font-semibold text-lg text-gray-900">{feature.title}</span>
+                                            <span className="text-gray-700 text-lg"> – {feature.description}</span>
                                         </div>
                                     </div>
                                 ))}
@@ -215,7 +215,7 @@ const ErectionServices = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/erection-img.png"
+                                src="/src/assets/erection-img.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-auto object-contain"
                             />

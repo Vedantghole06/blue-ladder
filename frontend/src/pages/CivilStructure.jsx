@@ -47,7 +47,7 @@ const CivilStructure = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/civil-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/civil-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -79,7 +79,7 @@ const CivilStructure = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -110,7 +110,7 @@ const CivilStructure = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/civil-img1.png"
+                                src="/src/assets/civil-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -139,7 +139,7 @@ const CivilStructure = () => {
                                 </h2>
 
                                 <p className="mb-8 text-center">
-                                    Precision, safety, and efficiency in steel structure erection, scaffolding, and heavy lifting. We ensure seamless assembly for durable and reliable constructions.
+                                Providing innovative and durable structural designs for residential, commercial, and industrial projects. We ensure safety, efficiency, and compliance with engineering standards.
                                 </p>
 
                                 <button className="w-full py-3 px-6 bg-yellow-500 hover:bg-yellow-600 text-teal-900 font-medium rounded-md transition duration-300 text-center">
@@ -149,9 +149,9 @@ const CivilStructure = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/civil-3d-model.png"
+                                        src="/src/assets/civil-3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -162,12 +162,12 @@ const CivilStructure = () => {
                             <h2 className="text-3xl text-center font-bold mb-6 text-gray-900">Civil Structure Design</h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
                                     Welcome to our engineering company’s website! We specialize in civil structure design, utilizing the latest technologies and methodologies to provide our clients with the most efficient and cost-effective solutions for their projects. Our team of experienced engineers has a wealth of knowledge in the field of civil structure design, and we have worked on a wide range of projects including bridges, buildings, and other infrastructure projects. We are dedicated to delivering high-quality designs that meet all applicable codes and standards, and we take pride in our attention to detail and commitment to safety. We understand that every project is unique, and we work closely with our clients to understand their specific needs and goals.
 
                                 </p>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
 
 
                                     Whether you are in need of a new bridge for your community or a building for your business, we have the expertise to deliver a solution that meets your needs. In addition to traditional civil structure design services, we also offer a variety of other engineering services such as construction management. Project management, and consulting. Our team is equipped to handle every aspect of your project, from initial planning and design to construction and beyond. Thank you for considering us for your civil structure design needs. We look forward to working with you and delivering the best possible solution for your project.
@@ -196,8 +196,8 @@ const CivilStructure = () => {
                                             </div>
                                         </div>
                                         <div className="ml-3">
-                                            <span className="font-semibold text-gray-900">{feature.title}</span>
-                                            <span className="text-gray-700"> – {feature.description}</span>
+                                            <span className="font-semibold text-gray-900 text-lg">{feature.title}</span>
+                                            <span className="text-gray-700 text-lg"> – {feature.description}</span>
                                         </div>
                                     </div>
                                 ))}
@@ -207,7 +207,7 @@ const CivilStructure = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/civil-img2.png"
+                                src="/src/assets/civil-img2.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-96 object-cover rounded-4xl"
                             />

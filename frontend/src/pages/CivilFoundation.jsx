@@ -11,21 +11,21 @@ const CivilFoundation = () => {
     const domain = [
         {
             id: 1,
-            title: "Mechanical",
+            title: "Excavation & Site Preparation",
             description: "",
-            imageUrl: "/mechanical.png", // Replace with your actual image
+            imageUrl: "/src/assets/mechanical.png", // Replace with your actual image
         },
         {
             id: 2,
-            title: "Electrical",
-            description: "Powering Reliable & Safe Connections",
-            imageUrl: "/electrical.png", // Replace with your actual image
+            title: "Reinforcement & Formwork",
+            description: "Strengthening the base with high-quality materials for long-term durability.",
+            imageUrl: "/src/assets/electrical.png", // Replace with your actual image
         },
         {
             id: 3,
-            title: "Plumbing",
+            title: "Concrete Pouring & Finishing",
             description: "",
-            imageUrl: "/plumbing.png", // Replace with your actual image
+            imageUrl: "/src/assets/plumbing.png", // Replace with your actual image
         }
     ];
 
@@ -39,26 +39,28 @@ const CivilFoundation = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/engg-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/civil-foundation-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
                     {/* Dark overlay to make text more readable */}
-                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 bg-black opacity-30"></div>
                 </div>
 
                 {/* Content container */}
                 <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
                     {/* Main heading */}
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-                        Engineering & Technical Advisory Services
+                        Civil Foundation Work
                     </h1>
 
                     {/* Breadcrumb navigation */}
                     <div className="flex items-center text-lg">
                         <span className="hover:underline">Product & Services </span>
                         <span className="mx-2">/</span>
-                        <span className="text-[#8CB5FF]">Engineering & Technical Advisory Services</span>
+                        <span className="hover:underline"> Engineering & Technical Advisory Services</span>
+                        <span className="mx-2">/</span>
+                        <span className="text-[#8CB5FF]">Civil Foundation Work</span>
 
                     </div>
                 </div>
@@ -70,7 +72,7 @@ const CivilFoundation = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -82,7 +84,7 @@ const CivilFoundation = () => {
                     <div className="flex flex-col md:flex-row gap-6 mb-8">
                         {/* Services Card */}
                         <div className="bg-white rounded-4xl shadow-md p-6 md:w-1/3">
-                            <h2 className="text-xl font-bold mb-6">EPC - Turnkey Solutions</h2>
+                            <h2 className="text-xl font-bold mb-6">Engineering & Technical Advisory Services</h2>
 
                             <div className="space-y-6">
                                 {services.map((service) => (
@@ -101,7 +103,7 @@ const CivilFoundation = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/engg-img1.png"
+                                src="/src/assets/civil-foundation-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -124,7 +126,7 @@ const CivilFoundation = () => {
                                 </div>
 
                                 <h2 className="text-2xl text-center font-bold mb-2">
-                                    🔥 Fire Services
+                                    Strong Foundations, Lasting Structures
 
                                 </h2>
 
@@ -138,9 +140,9 @@ const CivilFoundation = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/engg-3d-model.png"
+                                        src="/src/assets/civil-foundation-3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-76 h-auto object-contain -mb-8 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -149,30 +151,35 @@ const CivilFoundation = () => {
                         {/* Right Side - Content */}
                         <div className="w-full md:w-2/3">
                             <h2 className="text-3xl text-center font-bold mb-6 text-gray-900">
-                                Engineering & Technical Advisory Services
+                                Civil Foundation Work
                             </h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
-                                    Engineering and technical advisory services refer to consulting services provided by professionals with expertise in engineering and technology. These services can be used to help businesses and organizations solve problems, improve operations, and make informed decisions.                                </p>
+                                <p className="leading-relaxed text-lg">
+                                    Civil foundation work refers to the construction and installation of the foundations that support a building or structure. This type of work is typically done by a specialized contractor and involves excavating the site, preparing the ground for the foundation, and pouring and curing the concrete or installing pre-cast concrete foundation elements.
+                                </p>
 
                                 <p className="leading-relaxed">
 
                                     <h3 className='text-2xl font-bold mt-4'>
-                                        Examples of engineering and technical advisory services include
+                                        Some common types of civil foundation work services include
                                     </h3>
 
-                                    <p className='mt-4'>
-                                        <span className='text-xl font-bold'>Design and analysis: </span>
-                                        Engineers can provide design and analysis services to help businesses develop new products or improve existing ones. This may include designing and testing prototypes, conducting simulations and analyses.
+                                    <p className='mt-4 text-lg'>
+                                        <span className='text-xl font-bold'>Excavation: </span>
+                                        This involves digging out the site to the required depth to accommodate the foundation.
                                     </p>
-                                    <p className='mt-4'>
-                                        <span className='text-xl font-bold'>Project management: </span>
-                                        Engineers and technical advisors can assist with the planning and management of projects, including developing budgets, schedules, and scope documents, as well as coordinating with team members and stakeholders.
+                                    <p className='mt-4 text-lg'>
+                                        <span className='text-xl font-bold'>Grading: </span>
+                                        This involves preparing the ground by levelling and compacting the soil to provide a stable base for the foundation.
                                     </p>
-                                    <p className='mt-4'>
-                                        <span className='text-xl font-bold'>Risk assessment and management: </span>
-                                        Engineers can help businesses identify and assess potential risks associated with projects or operations, and develop strategies to mitigate or eliminate those risks.
+                                    <p className='mt-4 text-lg'>
+                                        <span className='text-xl font-bold'>Pouring and curing concrete: </span>
+                                        This involves mixing and pouring the concrete for the foundation and allowing it to cure, or harden, properly.
+                                    </p>
+                                    <p className='mt-4 text-lg'>
+                                        <span className='text-xl font-bold'>Foundation repairs: </span>
+                                        In some cases, foundation work may also involve repairing or reinforcing existing foundations to address structural issues or to prepare the foundation for an additional load.
                                     </p>
 
 
@@ -183,10 +190,10 @@ const CivilFoundation = () => {
                 </div>
 
 
-                <div className="w-full flex justify-center items-center p-6 min-h-[300px] md:min-h-[400px]">
-                    <div className="flex flex-col md:flex-row max-w-6xl w-full gap-6 md:gap-8 items-center justify-center">
+                <div className="w-full flex justify-center items-center p-6 min-h-[400px] md:min-h-[400px]">
+                    <div className="flex flex-col md:flex-row max-w-7xl w-full gap-6 md:gap-8 items-center justify-evenly">
                         {/* First card - Mechanical */}
-                        <div className="w-full md:w-1/3 h-48 md:h-56 rounded-2xl overflow-hidden relative">
+                        <div className="w-full md:w-1/3 h-48 md:h-56 rounded-4xl overflow-hidden relative">
                             <div
                                 className="absolute inset-0 bg-cover bg-center"
                                 style={{ backgroundImage: `url(${domain[0].imageUrl})` }}
@@ -198,7 +205,7 @@ const CivilFoundation = () => {
                         </div>
 
                         {/* Middle card - Electrical (larger) */}
-                        <div className="w-full md:w-1/3 h-60 md:h-64 rounded-2xl overflow-hidden relative">
+                        <div className="w-full md:w-1/3 h-60 md:h-64 rounded-4xl overflow-hidden relative">
                             <div
                                 className="absolute inset-0 bg-cover bg-center"
                                 style={{ backgroundImage: `url(${domain[1].imageUrl})` }}
@@ -211,7 +218,7 @@ const CivilFoundation = () => {
                         </div>
 
                         {/* Third card - Plumbing */}
-                        <div className="w-full md:w-1/3 h-48 md:h-56 rounded-2xl overflow-hidden relative">
+                        <div className="w-full md:w-1/3 h-48 md:h-56 rounded-4xl overflow-hidden relative">
                             <div
                                 className="absolute inset-0 bg-cover bg-center"
                                 style={{ backgroundImage: `url(${domain[2].imageUrl})` }}

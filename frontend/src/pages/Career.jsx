@@ -8,25 +8,25 @@ const Career = () => {
             id: 1,
             title: "Company Values",
             description: "Trust, listening, honesty, and co-operation are the pillars that set our work culture apart.",
-            image: "/api/placeholder/300/200" // Replace with actual image path
+            image: "/src/assets/career-img1.png"
         },
         {
             id: 2,
             title: "Friendly atmosphere",
             description: "We hold a positive attitude in order to foster respect and development for everyone.",
-            image: "/api/placeholder/300/200" // Replace with actual image path
+            image: "/src/assets/career-img2.png"
         },
         {
             id: 3,
             title: "Work-life balance",
             description: "For us, a healthy personal life is just as important as the time dedicated to our work.",
-            image: "/api/placeholder/300/200" // Replace with actual image path
+            image: "/src/assets/career-img3.png"
         },
         {
             id: 4,
             title: "Everyday grow",
             description: "We provide the necessary support to ensure your skills reach steady growth.",
-            image: "/api/placeholder/300/200" // Replace with actual image path
+            image: "/src/assets/career-img4.png"
         }
     ];
 
@@ -83,7 +83,7 @@ const Career = () => {
             <div className="relative w-full bg-gray-800 text-white overflow-hidden">
                 {/* Background image with overlay */}
                 <div className="absolute inset-0 bg-cover bg-center" style={{
-                    backgroundImage: 'url("/career-hero.png")', // Replace with your actual image URL
+                    backgroundImage: 'url("/src/assets/career-hero.png")', // Replace with your actual image URL
                     opacity: 0.5
                 }}></div>
                 {/* Overlay gradient */}
@@ -97,7 +97,7 @@ const Career = () => {
                         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
                             Build a future you<br />believe in
                         </h1>
-                        <button className="bg-blue-600 text-white px-6 py-3 rounded-full flex items-center hover:bg-blue-700 transition-colors">
+                        <button className="bg-[#345CA5] text-white px-6 py-3 rounded-full flex items-center hover:bg-blue-700 transition-colors">
                             Open positions
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
                                 <path fillRule="evenodd" d="M16.707 10.293a1 1 0 010 1.414l-6 6a1 1 0 01-1.414 0l-6-6a1 1 0 111.414-1.414L9 14.586V3a1 1 0 012 0v11.586l4.293-4.293a1 1 0 011.414 0z" clipRule="evenodd" transform="rotate(90 10 10)" />
@@ -111,7 +111,7 @@ const Career = () => {
                             {/* Logo as an image */}
                             <div className="relative w-56 md:w-72">
                                 <img
-                                    src="/logo.png" // Replace with your actual logo image URL
+                                    src="/src/assets/logo.png" // Replace with your actual logo image URL
                                     alt="Blueladder Logo"
                                     className="w-full h-auto"
                                 />
@@ -143,20 +143,22 @@ const Career = () => {
                                 <img
                                     src={benefit.image}
                                     alt={benefit.title}
-                                    className="w-full h-48 object-cover transition-transform duration-300 hover:scale-105"
+                                    className="w-full h-64 object-cover transition-transform duration-300 hover:scale-105"
                                 />
                             </div>
-                            <h3 className="text-xl font-semibold text-gray-900 mb-2">{benefit.title}</h3>
-                            <p className="text-gray-600 text-sm">{benefit.description}</p>
+                            <h3 className="text-2xl font-semibold text-gray-900 mb-2">{benefit.title}</h3>
+                            <p className="text-gray-600 text-lg">{benefit.description}</p>
                         </div>
                     ))}
                 </div>
 
                 {/* Call to Action */}
                 <div className="text-center mt-16">
-                    <h3 className="text-2xl md:text-3xl font-semibold text-blue-600">
+                    <h3 className="text-2xl md:text-4xl font-semibold text-[#345CA5]">
                         Join our team and inspire the work.
                     </h3>
+
+                    <h1 className="text-5xl font-semibold text-center md:text-center mt-8">We have 17 open positions now!</h1>
                 </div>
             </div>
 
@@ -166,14 +168,14 @@ const Career = () => {
             <div className="flex flex-col md:flex-row bg-gray-50 min-h-screen">
                 {/* Left sidebar */}
                 <div className="w-full md:w-64 p-6 bg-white">
-                    <h1 className="text-2xl font-bold text-center md:text-left mb-8">We have 17 open positions now!</h1>
+
 
                     {/* Categories */}
                     <div className="space-y-3">
                         {categories.map((category) => (
                             <button
                                 key={category.name}
-                                className={`w-full text-left px-3 py-2 rounded-md transition ${activeCategory === category.name ? 'text-blue-600 bg-blue-50' : 'text-gray-700 hover:bg-gray-100'
+                                className={`w-full text-left px-3 py-2 rounded-md transition ${activeCategory === category.name ? 'text-[#345CA5] bg-blue-50' : 'text-gray-700 hover:bg-gray-100'
                                     }`}
                                 onClick={() => setActiveCategory(category.name)}
                             >
@@ -295,7 +297,7 @@ const Career = () => {
                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
                         {/* Building/Structure Icon */}
                         <div className="w-48 h-48 md:w-64 md:h-64">
-                            <img src="/career-follow.png" alt="" />
+                            <img src="/src/assets/career-follow.png" alt="" />
                         </div>
                     </div>
                 </div>

@@ -102,7 +102,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="mr-2">
               <img
-                src="/logo.png"
+                src="/src/assets/logo.png"
                 alt="Blue Ladder"
                 className="h-12 w-auto"
               />
@@ -194,10 +194,16 @@ const Navbar = () => {
 
                     {pebDropdownOpen && (
                       <div className="absolute left-full top-0 w-56 bg-white rounded-md shadow-lg py-1 z-20">
-                        <NavLink to="/products/industrial-buildings" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Industrial Buildings</NavLink>
-                        <NavLink to="/products/commercial-buildings" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Commercial Buildings</NavLink>
-                        <NavLink to="/products/warehouses" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Warehouses</NavLink>
-                        <NavLink to="/products/aircraft-hangars" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Aircraft Hangars</NavLink>
+                        <NavLink to="/pre-engg" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Steel Structures</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Buildings</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Warehouse</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Sheds</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Poultry Sheds</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Mills</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Multi Storey Buildings</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Spinning & Grinding Sheds</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Ethanol Sheds</NavLink>
+                        <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Metro Station</NavLink>
                       </div>
                     )}
                   </div>
@@ -226,10 +232,10 @@ const Navbar = () => {
 
                     {engineeringDropdownOpen && (
                       <div className="absolute left-full top-0 w-56 bg-white rounded-md shadow-lg py-1 z-20">
-                        <NavLink to="/services/structural-engineering" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Structural Engineering</NavLink>
-                        <NavLink to="/services/technical-consultations" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Technical Consultations</NavLink>
-                        <NavLink to="/services/project-management" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Project Management</NavLink>
-                        <NavLink to="/services/feasibility-studies" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Feasibility Studies</NavLink>
+                        <NavLink to="/engg-technical-services" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Engineering & Technical Advisory Service</NavLink>
+                        <NavLink to="/engg-technical-services/fire-service" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Fire Services</NavLink>
+                        <NavLink to="/engg-technical-services/mep-service" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MEP Services</NavLink>
+                        <NavLink to="/engg-technical-services/civil-foundation" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Civil Foundation Work</NavLink>
                       </div>
                     )}
                   </div>
@@ -258,10 +264,12 @@ const Navbar = () => {
 
                     {epcDropdownOpen && (
                       <div className="absolute left-full top-0 w-56 bg-white rounded-md shadow-lg py-1 z-20">
-                        <NavLink to="/epc/design-engineering" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Design & Engineering</NavLink>
-                        <NavLink to="/epc/procurement" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Procurement</NavLink>
-                        <NavLink to="/epc/construction" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Construction</NavLink>
-                        <NavLink to="/epc/project-delivery" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Project Delivery</NavLink>
+                        <NavLink to="/turnkey-solution" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">EPC -Turnkey Solutions</NavLink>
+                        <NavLink to="/turnkey-solution/erection-services" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Erection Services</NavLink>
+                        <NavLink to="/turnkey-solution/mep" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MEP Designing</NavLink>
+                        <NavLink to="/turnkey-solution/peb" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Designing</NavLink>
+                        <NavLink to="/turnkey-solution/civil-structure" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Civil Structure Design</NavLink>
+                        <NavLink to="/turnkey-solution/peb-designing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Design Vetting</NavLink>
                       </div>
                     )}
                   </div>
@@ -275,10 +283,10 @@ const Navbar = () => {
             <NavLink to="/blog" className="text-gray-700 hover:text-blue-600">Blog</NavLink>
             <NavLink to="/career" className="text-gray-700 hover:text-blue-600">Careers</NavLink>
 
-            <a href="#" onClick={closeAllDropdowns} className="bg-amber-200 text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
+            <a href="#" onClick={closeAllDropdowns} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
               Book a Meeting
             </a>
-            <a href="#" onClick={closeAllDropdowns} className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
+            <a href="#" onClick={closeAllDropdowns} className="bg-[#345CA5D6] text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
               Customize your own PEB
             </a>
           </div>
@@ -400,10 +408,16 @@ const Navbar = () => {
 
                       {pebDropdownOpen && (
                         <div className="pl-4 mt-1 space-y-1">
-                          <NavLink to="/products/industrial-buildings" className="block text-gray-700 hover:text-blue-600 py-1">Industrial Buildings</NavLink>
-                          <NavLink to="/products/commercial-buildings" className="block text-gray-700 hover:text-blue-600 py-1">Commercial Buildings</NavLink>
-                          <NavLink to="/products/warehouses" className="block text-gray-700 hover:text-blue-600 py-1">Warehouses</NavLink>
-                          <NavLink to="/products/aircraft-hangars" className="block text-gray-700 hover:text-blue-600 py-1">Aircraft Hangars</NavLink>
+                          <NavLink to="/pre-engg" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Steel Structures</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Buildings</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Warehouse</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Sheds</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Poultry Sheds</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Mills</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Multi Storey Buildings</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Spinning & Grinding Sheds</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Ethanol Sheds</NavLink>
+                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Metro Station</NavLink>
                         </div>
                       )}
                     </div>
@@ -432,10 +446,10 @@ const Navbar = () => {
 
                       {engineeringDropdownOpen && (
                         <div className="pl-4 mt-1 space-y-1">
-                          <NavLink to="/services/structural-engineering" className="block text-gray-700 hover:text-blue-600 py-1">Structural Engineering</NavLink>
-                          <NavLink to="/services/technical-consultations" className="block text-gray-700 hover:text-blue-600 py-1">Technical Consultations</NavLink>
-                          <NavLink to="/services/project-management" className="block text-gray-700 hover:text-blue-600 py-1">Project Management</NavLink>
-                          <NavLink to="/services/feasibility-studies" className="block text-gray-700 hover:text-blue-600 py-1">Feasibility Studies</NavLink>
+                          <NavLink to="/engg-technical-services" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Engineering & Technical Advisory Service</NavLink>
+                          <NavLink to="/engg-technical-services/fire-service" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Fire Services</NavLink>
+                          <NavLink to="/engg-technical-services/mep-service" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MEP Services</NavLink>
+                          <NavLink to="/engg-technical-services/civil-foundation" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Civil Foundation Work</NavLink>
                         </div>
                       )}
                     </div>
@@ -464,12 +478,12 @@ const Navbar = () => {
 
                       {epcDropdownOpen && (
                         <div className="pl-4 mt-1 space-y-1">
-                          <NavLink to="/turnkey-solution" className="block text-gray-700 hover:text-blue-600 py-1">EPC - Turnkey Solutions</NavLink>
-                          <NavLink to="/turnkey-solution/erection-services" className="block text-gray-700 hover:text-blue-600 py-1">EPC - Designing</NavLink>
-                          <NavLink to="/turnkey-solution/mep" className="block text-gray-700 hover:text-blue-600 py-1">MEP Designing</NavLink>
-                          <NavLink to="/turnkey-solution/peb" className="block text-gray-700 hover:text-blue-600 py-1">PEB Designing</NavLink>
-                          <NavLink to="/turnkey-solution/civil-structure" className="block text-gray-700 hover:text-blue-600 py-1">Civil Structure Design</NavLink>
-                          <NavLink to="/turnkey-solution/peb-designing" className="block text-gray-700 hover:text-blue-600 py-1">PEB Design Vetting</NavLink>
+                          <NavLink to="/turnkey-solution" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">EPC -Turnkey Solutions</NavLink>
+                          <NavLink to="/turnkey-solution/erection-services" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Erection Services</NavLink>
+                          <NavLink to="/turnkey-solution/mep" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">MEP Designing</NavLink>
+                          <NavLink to="/turnkey-solution/peb" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Designing</NavLink>
+                          <NavLink to="/turnkey-solution/civil-structure" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Civil Structure Design</NavLink>
+                          <NavLink to="/turnkey-solution/peb-designing" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Design Vetting</NavLink>
                         </div>
                       )}
                     </div>

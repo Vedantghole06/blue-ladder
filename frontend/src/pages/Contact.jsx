@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/contact-img.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/contact-img.png')", // Replace with your actual image path
                         backgroundPosition: "center"
                     }}
                 >
@@ -84,7 +84,7 @@ const ContactUs = () => {
                 <div
                     className="absolute inset-0 z-0 bg-cover bg-center opacity-60"
                     style={{
-                        backgroundImage: "url('/dotted-pattern.png')",
+                        backgroundImage: "url('/src/assets/dotted-pattern.png')",
                     }}
                 />
 
@@ -117,9 +117,9 @@ const ContactUs = () => {
                             {/* Customer Support Image */}
                             <div className="mt-auto flex justify-center">
                                 <img
-                                    src="/contact-girl.png"
+                                    src="/src/assets/contact-girl.png"
                                     alt="Customer Support"
-                                    className="mt-6"
+                                    className="mt-6 -mb-6"
                                     style={{ maxHeight: '180px' }}
                                 />
                             </div>
@@ -181,7 +181,7 @@ const ContactUs = () => {
                             <div>
                                 <button
                                     type="submit"
-                                    className="bg-yellow-400 hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
+                                    className="bg-[#FFB703] hover:bg-yellow-500 text-white font-semibold py-3 px-6 rounded-lg transition duration-300 flex items-center justify-center"
                                 >
                                     Submit
                                     <ArrowRight size={18} className="ml-2" />
@@ -194,7 +194,7 @@ const ContactUs = () => {
 
 
             {/* Google Map Section */}
-            <div className="w-full h-96">
+            <div className="w-full h-[600px]">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29666.531001503212!2d79.05590566553718!3d21.14266246862462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0529518230f%3A0x45cd5a281a06e236!2sRamdaspeth%2C%20Nagpur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1708953785319!5m2!1sen!2sin"
                     width="100%"

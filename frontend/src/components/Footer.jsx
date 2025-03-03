@@ -24,15 +24,15 @@ const Footer = () => {
       </div>
 
       {/* Main Footer */}
-      <div className="bg-gray-100 py-10 px-4">
+      <div className="bg-[#345CA51C] py-10 px-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8">
             {/* Logo Column */}
             <div>
               <img
-                src="/logo.png"
+                src="/src/assets/logo.png"
                 alt="Blue Ladder"
-                className="h-16 w-auto mb-3"
+                className="h-18 w-auto mb-3"
               />
               <p className="text-xs text-gray-600">BlueLadder EPC Solutions Pvt ltd</p>
             </div>

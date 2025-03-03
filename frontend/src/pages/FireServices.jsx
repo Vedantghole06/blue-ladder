@@ -1,4 +1,3 @@
-import React from 'react';
 import { Check } from 'lucide-react';
 
 const FireServices = () => {
@@ -45,7 +44,7 @@ const FireServices = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/fire-service-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/fire-service-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -77,7 +76,7 @@ const FireServices = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -89,7 +88,8 @@ const FireServices = () => {
                     <div className="flex flex-col md:flex-row gap-6 mb-8">
                         {/* Services Card */}
                         <div className="bg-white rounded-4xl shadow-md p-6 md:w-1/3">
-                            <h2 className="text-xl font-bold mb-6">EPC - Turnkey Solutions</h2>
+                            <h2 className="text-xl font-bold mb-6">Engineering & Technical Advisory Services
+                            </h2>
 
                             <div className="space-y-6">
                                 {services.map((service) => (
@@ -108,7 +108,7 @@ const FireServices = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/fire-service-img1.png"
+                                src="/src/assets/fire-service-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -145,7 +145,7 @@ const FireServices = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/fire-service-3d-model.png"
+                                        src="/src/assets/fire-service-3d-model.png"
                                         alt="3D model of building structure"
                                         className="w-48 h-auto object-contain opacity-80 grayscale"
                                     />
@@ -160,11 +160,11 @@ const FireServices = () => {
                             </h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
                                     In the context of engineering, design, and construction, fire services refer to the systems and equipment that are designed and installed to protect buildings and other structures from the risk of fire. These systems may include fire sprinkler systems, fire alarms, smoke detectors, and other types of fire suppression and detection equipment. In the context of the Engineering, Procurement, and Construction (EPC) process, fire services are typically designed and installed by specialized contractors or subcontractors who are experts in this field. The design of fire services systems is typically based on building codes and regulations, as well as industry best practices and standards. During the EPC process, the fire services contractor or subcontractor is responsible for designing and installing the fire services systems according to the project’s specifications and requirements.
                                 </p>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
                                     This may involve coordinating with other contractors and stakeholders to ensure that the fire services systems are properly integrated with other building systems, such as electrical and HVAC systems. The fire services contractor or subcontractor may also be responsible for testing and commissioning the fire services systems to ensure that they are functioning correctly and are in compliance with all relevant codes and standards. In some cases, the fire services contractor or subcontractor may also be responsible for providing training to building owners and occupants on how to properly use and maintain the fire services systems.
                                 </p>
                             </div>
@@ -179,7 +179,7 @@ const FireServices = () => {
                         {/* Left side - Features list */}
                         <div className="w-full md:w-3/5 pr-0 md:pr-8">
                             <h2 className="text-2xl font-bold mb-8 flex items-center">
-                                Features of Our PEB Designing 🚧 🏗️
+                                Features of Our Fire Services 🔥
                             </h2>
 
                             <div className="space-y-5">
@@ -191,8 +191,8 @@ const FireServices = () => {
                                             </div>
                                         </div>
                                         <div className="ml-3">
-                                            <span className="font-semibold text-gray-900">{feature.title}</span>
-                                            <span className="text-gray-700"> – {feature.description}</span>
+                                            <span className="font-semibold text-gray-900 text-lg">{feature.title}</span>
+                                            <span className="text-gray-700 text-lg"> – {feature.description}</span>
                                         </div>
                                     </div>
                                 ))}
@@ -202,7 +202,7 @@ const FireServices = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/fire-service-img2.png"
+                                src="/src/assets/fire-service-img2.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-96 object-cover rounded-4xl"
                             />

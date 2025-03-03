@@ -1,5 +1,5 @@
-import { Check } from 'lucide-react';
 import React from 'react';
+import { Check } from 'lucide-react';
 
 const TurnkeySolution = () => {
 
@@ -27,7 +27,7 @@ const TurnkeySolution = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/epc-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/epc-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -60,7 +60,7 @@ const TurnkeySolution = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -91,7 +91,7 @@ const TurnkeySolution = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/epc-img.png"
+                                src="/src/assets/epc-img.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -103,14 +103,14 @@ const TurnkeySolution = () => {
                         <h2 className="text-2xl font-bold mb-6">EPC - Turnkey Solutions</h2>
 
                         <div className="space-y-6 text-gray-700">
-                            <p className="leading-relaxed">
+                            <p className="leading-relaxed text-lg">
                                 An EPC (engineering, procurement, and construction) turnkey solution is a type of project delivery method in which a company agrees to
                                 design, procure, and construct a facility for a client, and then turn the facility over to the client once it is completed. In an EPC turnkey project,
                                 the EPC contractor is responsible for all aspects of the project, from initial design and engineering to procurement of materials and
                                 construction, and is typically paid a fixed fee for their services.
                             </p>
 
-                            <p className="leading-relaxed">
+                            <p className="leading-relaxed text-lg">
                                 The client does not need to be involved in the day-to-day management of the project and can simply focus on operating and maintaining the
                                 completed facility. EPC turnkey solutions are often used in the construction of large infrastructure projects, such as power plants, oil and gas
                                 facilities, and industrial complexes.
@@ -127,18 +127,18 @@ const TurnkeySolution = () => {
                         <div className="w-full lg:w-1/2 relative">
                             <div className="grid grid-cols-2 gap-4 relative">
                                 {/* Top Left Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img1.png"
+                                        src="/src/assets/epc-img1.png"
                                         alt="Construction workers in safety gear reviewing a site"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
 
                                 {/* Top Right Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img2.png"
+                                        src="/src/assets/epc-img2.png"
                                         alt="Engineers looking at construction site with buildings in background"
                                         className="w-full h-full object-cover"
                                     />
@@ -155,18 +155,18 @@ const TurnkeySolution = () => {
                                 </div>
 
                                 {/* Bottom Left Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img3.png"
+                                        src="/src/assets/epc-img3.png"
                                         alt="Engineer reviewing construction plans"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
 
                                 {/* Bottom Right Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img4.png"
+                                        src="/src/assets/epc-img4.png"
                                         alt="Construction workers in safety gear at construction site"
                                         className="w-full h-full object-cover"
                                     />
@@ -178,7 +178,7 @@ const TurnkeySolution = () => {
                         <div className="w-full lg:w-1/2">
                             <h2 className="text-3xl font-bold mb-6 text-gray-900">Seamless Turnkey EPC Solutions</h2>
 
-                            <p className="text-gray-700 mb-8">
+                            <p className="text-gray-700 text-lg mb-8">
                                 Our turnkey approach guarantees efficiency, cost-effectiveness, and high-quality construction, tailored to meet your specific needs.
                             </p>
 
@@ -190,7 +190,7 @@ const TurnkeySolution = () => {
                                                 <Check className="w-4 h-4 text-white" />
                                             </div>
                                         </div>
-                                        <span className="ml-3 text-gray-700">{feature}</span>
+                                        <span className="ml-3 text-lg text-gray-700">{feature}</span>
                                     </div>
                                 ))}
                             </div>

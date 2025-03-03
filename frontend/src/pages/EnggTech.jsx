@@ -9,11 +9,10 @@ const EnggTech = () => {
     ];
 
     const features = [
-        "Comprehensive project management",
-        "Timely execution with precision",
-        "Cost-effective & hassle-free solutions",
-        "Quality assurance at every stage",
-        "Innovative designs & sustainable construction"
+        "Project Feasibility Analysis – Evaluating technical and economic viability before execution.",
+        "Structural & Design Consultation – Expert guidance on safe and efficient engineering solutions.",
+        "Quality & Safety Compliance – Quality & Safety Compliance.",
+        "Material & Technology Selection – Recommending cost-effective and sustainable solutions."
     ];
 
 
@@ -25,7 +24,7 @@ const EnggTech = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/engg-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/engg-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -56,7 +55,7 @@ const EnggTech = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -68,7 +67,7 @@ const EnggTech = () => {
                     <div className="flex flex-col md:flex-row gap-6 mb-8">
                         {/* Services Card */}
                         <div className="bg-white rounded-4xl shadow-md p-6 md:w-1/3">
-                            <h2 className="text-xl font-bold mb-6">EPC - Turnkey Solutions</h2>
+                            <h2 className="text-xl font-bold mb-6">Engineering & Technical Advisory Services</h2>
 
                             <div className="space-y-6">
                                 {services.map((service) => (
@@ -87,7 +86,7 @@ const EnggTech = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/engg-img1.png"
+                                src="/src/assets/engg-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -110,23 +109,24 @@ const EnggTech = () => {
                                 </div>
 
                                 <h2 className="text-2xl text-center font-bold mb-2">
-                                    🔥 Fire Services
+                                    ⚙️ Engineering & Technical Advisory
 
                                 </h2>
 
                                 <p className="mb-8 text-center">
-                                    Providing fire safety solutions, including detection, suppression, and prevention systems, to protect lives and property. Our designs ensure compliance with safety regulations and industry standards.                                </p>
+                                    Expert guidance in structural design, safety compliance, material selection, and risk assessment to ensure efficient, cost-effective, and sustainable project execution.
+                                </p>
 
                                 <button className="w-full py-3 px-6 bg-yellow-500 hover:bg-yellow-600 text-teal-900 font-medium rounded-md transition duration-300 text-center">
-                                    Contact Us for Consultation!
+                                    Consult Our Experts Today !
                                 </button>
 
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/engg-3d-model.png"
+                                        src="/src/assets/engg-3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -139,8 +139,9 @@ const EnggTech = () => {
                             </h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
-                                    Engineering and technical advisory services refer to consulting services provided by professionals with expertise in engineering and technology. These services can be used to help businesses and organizations solve problems, improve operations, and make informed decisions.                                </p>
+                                <p className="leading-relaxed text-lg">
+                                    Engineering and technical advisory services refer to consulting services provided by professionals with expertise in engineering and technology. These services can be used to help businesses and organizations solve problems, improve operations, and make informed decisions.
+                                </p>
 
                                 <p className="leading-relaxed">
 
@@ -148,15 +149,15 @@ const EnggTech = () => {
                                         Examples of engineering and technical advisory services include
                                     </h3>
 
-                                    <p className='mt-4'>
+                                    <p className='mt-4 text-lg'>
                                         <span className='text-xl font-bold'>Design and analysis: </span>
                                         Engineers can provide design and analysis services to help businesses develop new products or improve existing ones. This may include designing and testing prototypes, conducting simulations and analyses.
                                     </p>
-                                    <p className='mt-4'>
+                                    <p className='mt-4 text-lg'>
                                         <span className='text-xl font-bold'>Project management: </span>
                                         Engineers and technical advisors can assist with the planning and management of projects, including developing budgets, schedules, and scope documents, as well as coordinating with team members and stakeholders.
                                     </p>
-                                    <p className='mt-4'>
+                                    <p className='mt-4 text-lg'>
                                         <span className='text-xl font-bold'>Risk assessment and management: </span>
                                         Engineers can help businesses identify and assess potential risks associated with projects or operations, and develop strategies to mitigate or eliminate those risks.
                                     </p>
@@ -175,18 +176,18 @@ const EnggTech = () => {
                         <div className="w-full lg:w-1/2 relative">
                             <div className="grid grid-cols-2 gap-4 relative">
                                 {/* Top Left Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img1.png"
+                                        src="/src/assets/epc-img1.png"
                                         alt="Construction workers in safety gear reviewing a site"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
 
                                 {/* Top Right Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img2.png"
+                                        src="/src/assets/epc-img2.png"
                                         alt="Engineers looking at construction site with buildings in background"
                                         className="w-full h-full object-cover"
                                     />
@@ -203,18 +204,18 @@ const EnggTech = () => {
                                 </div>
 
                                 {/* Bottom Left Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img3.png"
+                                        src="/src/assets/epc-img3.png"
                                         alt="Engineer reviewing construction plans"
                                         className="w-full h-full object-cover"
                                     />
                                 </div>
 
                                 {/* Bottom Right Image */}
-                                <div className="rounded-lg overflow-hidden">
+                                <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/epc-img4.png"
+                                        src="/src/assets/epc-img4.png"
                                         alt="Construction workers in safety gear at construction site"
                                         className="w-full h-full object-cover"
                                     />

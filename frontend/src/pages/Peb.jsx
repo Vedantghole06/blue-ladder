@@ -47,7 +47,7 @@ const Peb = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/peb-main-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/peb-main-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -79,7 +79,7 @@ const Peb = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/bg-pattern.jpeg')",
+                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -110,7 +110,7 @@ const Peb = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/erection-img1.png"
+                                src="/src/assets/peb-img2.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -139,7 +139,7 @@ const Peb = () => {
                                 </h2>
 
                                 <p className="mb-8 text-center">
-                                    Precision, safety, and efficiency in steel structure erection, scaffolding, and heavy lifting. We ensure seamless assembly for durable and reliable constructions.
+                                    Ensuring Pre-Engineered Building (PEB) designs meet safety, durability, and compliance standards. We review structural integrity, load calculations, and material efficiency for optimal performance.
                                 </p>
 
                                 <button className="w-full py-3 px-6 bg-yellow-500 hover:bg-yellow-600 text-teal-900 font-medium rounded-md transition duration-300 text-center">
@@ -149,9 +149,9 @@ const Peb = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/peb-3d-model.png"
+                                        src="/src/assets/peb-3d-model.png"
                                         alt="3D model of building structure"
-                                        className="w-48 h-auto object-contain opacity-80 grayscale"
+                                        className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
                                 </div>
                             </div>
@@ -162,13 +162,13 @@ const Peb = () => {
                             <h2 className="text-3xl text-center font-bold mb-6 text-gray-900">PEB Design Vetting</h2>
 
                             <div className="space-y-6 text-gray-700">
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
                                     As an engineering company, we understand the importance of ensuring that the design of a Pre-Engineered Building (PEB) is thoroughly vetted before it is constructed. That’s why we offer comprehensive design vetting services for our clients. Our team of experienced engineers will carefully review every aspect of your PEB design, including the structural integrity, energy efficiency, and overall functionality. We will also ensure that all necessary codes and regulations are adhered to, so that you can have confidence in the safety and reliability of your building. But our design vetting services don’t stop there.
 
 
                                 </p>
 
-                                <p className="leading-relaxed">
+                                <p className="leading-relaxed text-lg">
                                     We also offer value engineering services, which involve identifying opportunities to optimize the design and construction process in order to save you time and money. With our design vetting services, you can trust that your PEB will be designed to the highest standards, ensuring that it will stand the test of time and provide a safe and functional space for your business or organization. Contact us today to learn more about how our design vetting services can benefit your project.
                                 </p>
                             </div>
@@ -195,8 +195,8 @@ const Peb = () => {
                                             </div>
                                         </div>
                                         <div className="ml-3">
-                                            <span className="font-semibold text-gray-900">{feature.title}</span>
-                                            <span className="text-gray-700"> – {feature.description}</span>
+                                            <span className="font-semibold text-gray-900 text-lg">{feature.title}</span>
+                                            <span className="text-gray-700 text-lg"> – {feature.description}</span>
                                         </div>
                                     </div>
                                 ))}
@@ -206,7 +206,7 @@ const Peb = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/peb-img.png"
+                                src="/src/assets/peb-img.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-96 object-cover rounded-4xl"
                             />

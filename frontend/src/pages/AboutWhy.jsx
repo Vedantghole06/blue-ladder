@@ -18,19 +18,19 @@ const AboutWhy = () => {
 
   const manufacturing = [
     {
-      image: "/manufacturing1.png",
+      image: "/src/assets/manufacturing1.png",
       title: "PRIMO 'H' Beam fully automatic weldingline"
     },
     {
-      image: "/manufacturing2.png",
+      image: "/src/assets/manufacturing2.png",
       title: "Hydraulic Shearing Machine"
     },
     {
-      image: "/manufacturing3.png",
+      image: "/src/assets/manufacturing3.png",
       title: "Container mounted Standing Seam Profiling machine"
     },
     {
-      image: "/manufacturing4.png",
+      image: "/src/assets/manufacturing4.png",
       title: "Fully Automatic Z/C Purlin forming machine."
     }
   ];
@@ -95,7 +95,7 @@ const AboutWhy = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/aboutwhy.png')", // Replace with your actual image path
+            backgroundImage: "url('/src/assets/aboutwhy.png')", // Replace with your actual image path
             backgroundPosition: "center"
           }}
         >
@@ -134,7 +134,7 @@ const AboutWhy = () => {
                 Delivering Quality
               </h2>
 
-              <div className="space-y-4 text-gray-700">
+              <div className="space-y-4 text-lg text-gray-700">
                 <p>
                   BlueLadder EPC Solutions was established in the year 2017 based in
                   Central India with a vision to cater industries by providing EPC turnkey
@@ -153,7 +153,7 @@ const AboutWhy = () => {
             <div className="order-1 lg:order-2">
               <div className=" overflow-hidden">
                 <img
-                  src="/aboutus.png"
+                  src="/src/assets/aboutus.png"
                   alt="Modern architectural house with glass walls"
                   className="w-full h-auto object-cover"
                 />
@@ -173,7 +173,7 @@ const AboutWhy = () => {
             <div>
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="/about-us-img.png"
+                  src="/src/assets/about-us-img.png"
                   alt="Construction workers in orange safety vests and hard hats"
                   className="w-96 h-auto object-cover"
                 />
@@ -201,7 +201,7 @@ const AboutWhy = () => {
                 {/* Background image in bottom right corner */}
                 <div className="absolute bottom-0 right-5 w-24 h-24">
                   <img
-                    src="/about-us-img-bg.png"
+                    src="/src/assets/about-us-img-bg.png"
                     alt="Background decoration"
                     className="w-full h-full object-cover"
                   />
@@ -275,7 +275,7 @@ const AboutWhy = () => {
 
           <div className="md:w-2/5 mt-6 md:mt-0">
             <img
-              src="/why-us-img.png"
+              src="/src/assets/why-us-img.png"
               alt="Urban skyline with high-rise buildings"
               className="w-[700px] h-96 grayscale object-cover opacity-40"
             />
@@ -325,7 +325,7 @@ const AboutWhy = () => {
 
       {/* Manufacturing Facility */}
 
-      <div className="max-w-6xl mx-auto p-4">
+      <div className="max-w-8xl mx-auto p-4">
         <h1 className="text-3xl font-bold text-center mb-8">Our Manufacturing Facility</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {manufacturing.map((manufacturing, index) => (
@@ -333,10 +333,10 @@ const AboutWhy = () => {
               <img
                 src={manufacturing.image}
                 alt={manufacturing.title}
-                className="w-full h-48 object-cover"
+                className="w-full h-64 object-cover"
               />
               <div className="p-4 text-center">
-                <p className="text-gray-800 text-sm">{manufacturing.title}</p>
+                <p className="text-gray-800 text-lg">{manufacturing.title}</p>
               </div>
             </div>
           ))}

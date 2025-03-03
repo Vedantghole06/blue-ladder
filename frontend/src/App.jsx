@@ -23,6 +23,7 @@ import FireServices from './pages/FireServices'
 import EnggTech from './pages/EnggTech'
 import CivilFoundation from './pages/CivilFoundation'
 import MepService from './pages/MepService'
+import PreEngg from './pages/PreEngg.jsx'
 
 const App = () => {
   return (
@@ -51,6 +52,7 @@ const App = () => {
         <Route path="/engg-technical-services/civil-foundation" element={<CivilFoundation />} />
         <Route path="/engg-technical-services/mep-service" element={<MepService />} />
         <Route path="/engg-technical-services/fire-service" element={<FireServices />} />
+        <Route path="/pre-engg" element={<PreEngg />} />
       </Routes>
       <Footer />
     </>
