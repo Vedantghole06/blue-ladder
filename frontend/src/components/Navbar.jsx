@@ -409,15 +409,15 @@ const Navbar = () => {
                       {pebDropdownOpen && (
                         <div className="pl-4 mt-1 space-y-1">
                           <NavLink to="/pre-engg" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Steel Structures</NavLink>
-                          <NavLink to="/pre-engg-building" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Buildings</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Warehouse</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Sheds</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Poultry Sheds</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Mills</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Multi Storey Buildings</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Spinning & Grinding Sheds</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Ethanol Sheds</NavLink>
-                          <NavLink to="/" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Metro Station</NavLink>
+                          <NavLink to="/pre-engg/pre-engg-building" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Pre Engineered Buildings</NavLink>
+                          <NavLink to="/pre-engg/peb-warehouse" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Warehouse</NavLink>
+                          <NavLink to="/pre-engg/peb-sheds" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Sheds</NavLink>
+                          <NavLink to="/pre-engg/poultry-shed" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Poultry Sheds</NavLink>
+                          <NavLink to="/pre-engg/peb-mills" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Mills</NavLink>
+                          <NavLink to="/pre-engg/peb-multistory" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Multi Storey Buildings</NavLink>
+                          <NavLink to="/pre-engg/peb-spinning" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Spinning & Grinding Sheds</NavLink>
+                          <NavLink to="/pre-engg/ethanol" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">Ethanol Sheds</NavLink>
+                          <NavLink to="/pre-engg/peb-metro" className="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">PEB Metro Station</NavLink>
                         </div>
                       )}
                     </div>
