@@ -22,7 +22,7 @@ const PreEnggBuilding = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('./src/assets/pre-building-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/pre-building-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -34,7 +34,7 @@ const PreEnggBuilding = () => {
                 <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
                     {/* Main heading */}
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-                        Pre Engineered Steel Structures
+                    Pre Engineered Buildings
                     </h1>
 
                     {/* Breadcrumb navigation */}

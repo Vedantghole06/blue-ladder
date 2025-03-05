@@ -25,6 +25,14 @@ import CivilFoundation from './pages/CivilFoundation'
 import MepService from './pages/MepService'
 import PreEngg from './pages/PreEngg.jsx'
 import PreEnggBuilding from './pages/PreEnggBuilding.jsx'
+import PebWarehouse from './pages/PebWarehouse.jsx'
+import PebSheds from './pages/PebSheds.jsx'
+import PoultryShed from './pages/PoultryShed.jsx'
+import PebMetro from './pages/PebMetro.jsx'
+import Ethanol from './pages/Ethanol.jsx'
+import PebSpinning from './pages/PebSpinning.jsx'
+import PebMultiStory from './pages/PebMultiStory.jsx'
+import PebMills from './pages/PebMills.jsx'
 
 const App = () => {
   return (
@@ -54,7 +62,15 @@ const App = () => {
         <Route path="/engg-technical-services/mep-service" element={<MepService />} />
         <Route path="/engg-technical-services/fire-service" element={<FireServices />} />
         <Route path="/pre-engg" element={<PreEngg />} />
-        <Route path="/pre-engg-building" element={<PreEnggBuilding />} />
+        <Route path="/pre-engg/pre-engg-building" element={<PreEnggBuilding />} />
+        <Route path="/pre-engg/peb-warehouse" element={<PebWarehouse />} />
+        <Route path="/pre-engg/peb-sheds" element={<PebSheds />} />
+        <Route path="/pre-engg/poultry-shed" element={<PoultryShed />} />
+        <Route path="/pre-engg/peb-mills" element={<PebMills />} />
+        <Route path="/pre-engg/peb-multistory" element={<PebMultiStory />} />
+        <Route path="/pre-engg/peb-spinning" element={<PebSpinning />} />
+        <Route path="/pre-engg/ethanol" element={<Ethanol />} />
+        <Route path="/pre-engg/peb-metro" element={<PebMetro />} />
       </Routes>
       <Footer />
     </>

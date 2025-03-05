@@ -22,7 +22,7 @@ const PreEngg = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('./src/assets/pre-engg-main-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/pre-engg-main-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >

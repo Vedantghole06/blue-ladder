@@ -78,7 +78,7 @@ const ErectionServices = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
+                        backgroundImage: "url(/src/assets/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',

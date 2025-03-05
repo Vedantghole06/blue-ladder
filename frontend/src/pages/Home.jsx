@@ -7,19 +7,19 @@ const Home = () => {
     const slides = [
         {
             id: 1,
-            image: './src/assets/carousel-img1.jpeg',
+            image: '/src/assets/carousel-img1.jpeg',
             title: 'Our Vision shows what we are striving for.',
             alt: 'Modern city buildings with blue sky'
         },
         {
             id: 2,
-            image: './src/assets/carousel-img2.png',
+            image: '/src/assets/carousel-img2.png',
             title: 'Innovation drives our future growth.',
             alt: 'Corporate office interior'
         },
         {
             id: 3,
-            image: './src/assets/carousel-img3.png',
+            image: '/src/assets/carousel-img3.png',
             title: 'Building sustainable solutions together.',
             alt: 'Green building with solar panels'
         }
@@ -49,17 +49,17 @@ const Home = () => {
 
     const services = [
         {
-            image: "./src/assets/home-service-img1.png",
+            image: "/src/assets/home-service-img1.png",
             title: "Pre Engineered Steel Structures",
             icon: (<Paperclip size={24} />)
         },
         {
-            image: "./src/assets/home-service-img2.png",
+            image: "/src/assets/home-service-img2.png",
             title: "Smart and Green Buildings",
             icon: (<Paperclip size={24} />)
         },
         {
-            image: "./src/assets/home-service-img3.png",
+            image: "/src/assets/home-service-img3.png",
             title: "Engineering & Technical Advisory Services",
             icon: (<Paperclip size={24} />)
         }
@@ -73,42 +73,42 @@ const Home = () => {
     const clients = [
         {
             name: "Flipkart",
-            logo: "./src/assets/flipkart.png",
+            logo: "/src/assets/flipkart.png",
             color: "text-blue-500"
         },
         {
             name: "Delhivery",
-            logo: "./src/assets/delhivery.png",
+            logo: "/src/assets/delhivery.png",
             color: "text-red-500"
         },
         {
             name: "Amazon",
-            logo: "./src/assets/amazon.png",
+            logo: "/src/assets/amazon.png",
             color: "text-orange-500"
         },
         {
             name: "Nykaa",
-            logo: "./src/assets/nykaa.png",
+            logo: "/src/assets/nykaa.png",
             color: "text-pink-500"
         },
         {
             name: "Flipkart",
-            logo: "./src/assets/flipkart.png",
+            logo: "/src/assets/flipkart.png",
             color: "text-blue-500"
         },
         {
             name: "Delhivery",
-            logo: "./src/assets/delhivery.png",
+            logo: "/src/assets/delhivery.png",
             color: "text-red-500"
         },
         {
             name: "Amazon",
-            logo: "./src/assets/amazon.png",
+            logo: "/src/assets/amazon.png",
             color: "text-orange-500"
         },
         {
             name: "Nykaa",
-            logo: "./src/assets/nykaa.png",
+            logo: "/src/assets/nykaa.png",
             color: "text-pink-500"
         }
     ];
@@ -343,7 +343,7 @@ const Home = () => {
                             </div>
 
                             <div className="md:w-1/3 flex justify-center">
-                                <img src="./src/assets/logo.png" alt="Logo" />
+                                <img src="/src/assets/logo.png" alt="Logo" />
                             </div>
                         </div>
                     </header>
@@ -408,7 +408,7 @@ const Home = () => {
                         {/* Vision Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <img src="./src/assets/vision.png" alt="" />
+                                <img src="/src/assets/vision.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Vision</h3>
@@ -426,7 +426,7 @@ const Home = () => {
                         {/* Mission Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <img src="./src/assets/mission.png" alt="" />
+                                <img src="/src/assets/mission.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Mission</h3>
@@ -444,7 +444,7 @@ const Home = () => {
                         {/* Core Value Card */}
                         <div className="bg-white rounded-lg shadow-md p-6 text-center">
                             <div className="bg-blue-600 rounded-full h-12 w-12 flex items-center justify-center mx-auto mb-4">
-                                <img src="./src/assets/core.png" alt="" />
+                                <img src="/src/assets/core.png" alt="" />
                             </div>
 
                             <h3 className="text-lg font-bold text-gray-800 mb-3">Core Value</h3>
@@ -752,7 +752,7 @@ const Home = () => {
                     {/* Tata Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="./src/assets/tata.png"
+                            src="/src/assets/tata.png"
                             alt="Tata Steel Logo"
                             className="w-full h-auto"
                         />
@@ -761,7 +761,7 @@ const Home = () => {
                     {/* JSW Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="./src/assets/jsw.png"
+                            src="/src/assets/jsw.png"
                             alt="JSW Steel Logo"
                             className="w-full h-auto"
                         />
@@ -770,7 +770,7 @@ const Home = () => {
                     {/* Tata BlueScope Steel Logo */}
                     <div className="w-48 md:w-40 lg:w-48">
                         <img
-                            src="./src/assets/tata1.png"
+                            src="/src/assets/tata1.png"
                             alt="Tata BlueScope Steel Logo"
                             className="w-full h-auto"
                         />

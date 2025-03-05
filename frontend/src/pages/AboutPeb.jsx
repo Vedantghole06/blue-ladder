@@ -40,7 +40,7 @@ const AboutPeb = () => {
                 <div
                     className="absolute inset-0 z-0"
                     style={{
-                        backgroundImage: `url('/src/assets/bg-pattern.jpeg')`,
+                        backgroundImage: `url(/src/assets/bg-pattern.jpeg')`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         filter: 'brightness(0.9)',
@@ -218,7 +218,7 @@ const AboutPeb = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/pre-engg-bg.png')",
+                        backgroundImage: "url(/src/assets/pre-engg-bg.png')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
