@@ -22,19 +22,19 @@ const PebMills = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-shed-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/peb-mills-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
                     {/* Dark overlay to make text more readable */}
-                    <div className="absolute inset-0 bg-black opacity-60"></div>
+                    <div className="absolute inset-0 bg-black opacity-40"></div>
                 </div>
 
                 {/* Content container */}
                 <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
                     {/* Main heading */}
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-                        PEB Sheds
+                        PEB Mills
                     </h1>
 
                     {/* Breadcrumb navigation */}
@@ -43,7 +43,7 @@ const PebMills = () => {
                         <span className="mx-2">/</span>
                         <span className="hover:underline">Pre Engineered Steel Structures </span>
                         <span className="mx-2">/</span>
-                        <span className="text-[#8CB5FF] font-bold text-xl">PEB Sheds</span>
+                        <span className="text-[#8CB5FF] font-bold text-xl">PEB Mills</span>
                     </div>
                 </div>
             </div>
@@ -92,29 +92,138 @@ const PebMills = () => {
 
 
 
-                <div className="flex flex-wrap justify-center md:justify-evenly items-center mb-8 px-5">
-                    {/* Building Illustration */}
-                    <div className="flex justify-center md:block">
+                <div className="relative w-full max-w-6xl mx-auto px-4 py-8 bg-gray-50 font-sans">
+                    {/* Background decorative image - centered */}
+                    <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
                         <img
-                            src="/src/assets/peb-shed-img2.png"
-                            alt="Pre-engineered building structure diagram"
-                            className="w-[300px] md:w-[400px] h-auto"
+                            src="/src/assets/peb-mills-bg.png"
+                            alt=""
+                            width={600}
+                            height={600}
+                            className="object-contain"
+                            aria-hidden="true"
                         />
                     </div>
 
-                    {/* Text Content */}
-                    <div className="max-w-full md:w-[700px] text-center md:text-left px-4">
-                        <h2 className="text-lg md:text-xl font-semibold mb-4 md:mb-6">
-                            PEB SHEDS – INDUSTRIAL STRUCTURES THAT LAST LONG
-                        </h2>
-
-                        <p className="text-sm md:text-base">
-                            At Blueladder EPC, the leading industrial shed company in India, we prioritize custom-designed architecture and
-                            client-specific construction. Our pre-engineered structures are crafted to meet the unique requirements of each
-                            customer, forming the cornerstone of our progress and success. With a meticulous manufacturing process and the
-                            use of high-quality raw materials, we confidently offer a lifetime guarantee of durability and exceptional
-                            service for these industrial PEB sheds. Here are the remarkable features of our pre-engineered fabricated structures:
+                    {/* Header section */}
+                    <div className="relative z-10 max-w-4xl mx-auto text-center mb-12">
+                        <p className="text-gray-700 text-sm md:text-base lg:text-lg">
+                            When it comes to efficient and reliable storage solutions for dal (lentils) and rice, Pre-Engineered Buildings
+                            (PEB) Mills have emerged as a game-changer in the food industry. PEB Mills offers a perfect blend of modern
+                            engineering and advanced technology, ensuring optimal storage conditions that preserve the quality and
+                            freshness of these essential food staples.
                         </p>
+                    </div>
+
+                    {/* Features grid */}
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 relative z-10">
+                        {/* Feature 1 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Superior Structural Design</h3>
+                            <p className="text-sm text-gray-600">
+                                BlueBuilder's PEB Mills are engineered with precision and innovation to withstand various environmental
+                                conditions while providing maximum storage capacity. The strategic design minimizes dead spaces, ensuring
+                                efficient utilization of the available storage units. The flexibility in design allows for customization
+                                according to specific storage requirements.
+                            </p>
+                        </div>
+
+                        {/* Feature 2 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Climate Control Technology</h3>
+                            <p className="text-sm text-gray-600">
+                                Maintaining the right temperature and humidity levels is crucial for preserving the quality of dal and rice.
+                                PEB Mills come equipped with advanced climate control systems that regulate temperature and humidity,
+                                preventing mold growth and other related issues. This technology ensures that your stored commodities remain
+                                fresh and unblemished for extended periods.
+                            </p>
+                        </div>
+
+                        {/* Feature 3 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Ventilation Systems</h3>
+                            <p className="text-sm text-gray-600">
+                                Adequate airflow is essential to prevent moisture build-up and maintain the quality of stored dal and rice.
+                                Our Mills incorporate well-designed ventilation systems that promote air circulation, reducing the risk of
+                                condensation and potential damage.
+                            </p>
+                        </div>
+
+                        {/* Feature 4 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Pest Control Mechanisms</h3>
+                            <p className="text-sm text-gray-600">
+                                Protecting your food grains from pests is paramount. Our PEB Mills offer integrated pest management
+                                solutions, including pest-resistant construction materials and sealing mechanisms to keep unwanted intruders
+                                at bay. This safeguarding feature helps maintain the purity and hygiene of your stored commodities.
+                            </p>
+                        </div>
+
+                        {/* Feature 5 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Space Optimization</h3>
+                            <p className="text-sm text-gray-600">
+                                PEB Mills are engineered to maximize storage space vertically and horizontally. With customizable racking
+                                systems and intelligent layout planning, you can make the most of your available space, accommodating larger
+                                quantities of dal and rice without compromising on accessibility.
+                            </p>
+                        </div>
+
+                        {/* Feature 6 */}
+                        <div className="bg-blue-50 rounded-lg p-6 shadow-sm">
+                            <h3 className="text-center font-semibold text-gray-800 mb-4">Durability and Longevity</h3>
+                            <p className="text-sm text-gray-600">
+                                Constructed with high-quality materials and modern manufacturing techniques, PEB Mills are built to last.
+                                Their robust construction ensures resistance to rust, corrosion, and other environmental factors,
+                                contributing to a longer lifespan and maximized maintenance costs.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Footer section */}
+                    <div className="relative z-10 max-w-4xl mx-auto text-center mt-12">
+                        <p className="text-gray-700 font-medium">
+                            Investing in a PEB Mill for dal and rice storage is a strategic choice that aligns with modern food storage
+                            demands.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div className="max-w-6xl mx-auto p-4 md:p-6 lg:p-8">
+                    <div className="flex flex-col md:flex-row items-center gap-8">
+                        {/* Text Content */}
+                        <div className="w-full md:w-2/3 space-y-4">
+                            <p className="text-gray-700 text-sm md:text-base">
+                                These innovative solutions combine structural excellence, advanced technology, and adherence to
+                                safety standards, creating an ideal environment for preserving the freshness and quality of your
+                                food grains.
+                            </p>
+                            <p className="text-gray-700 text-sm md:text-base">
+                                By choosing a PEB Mill, you are not only optimizing storage capacity but also contributing to
+                                sustainable food management practices that benefit both your business and the community at large.
+                            </p>
+
+                        </div>
+
+                        {/* Image */}
+                        <div className="w-full md:w-1/3 mt-4 md:mt-0">
+                            <div className="relative w-full h-48 md:h-64">
+                                <img
+                                    src="/api/placeholder/400/320"
+                                    alt="PEB Mill Storage Building"
+                                    className="w-full h-full object-contain"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div className="pt-6 text-center md:text-center">
+                        <a
+                            href="#"
+                            className="inline-block font-medium text-blue-700 text-sm md:text-base hover:text-blue-800"
+                        >
+                            Enquire now & Experience the future of food storage with PEB Mills – where preservation meets innovation.
+                        </a>
                     </div>
                 </div>
 

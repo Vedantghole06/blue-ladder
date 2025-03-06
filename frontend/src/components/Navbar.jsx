@@ -1,10 +1,42 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import BookMeeting from '../pages/BookMeeting'
+
+
+const Popup = ({ isOpen, onClose, children }) => {
+  if (!isOpen) return null;
+
+  return (
+    <div className="fixed inset-0 flex items-center justify-center z-50">
+      <div
+        className="fixed inset-0 bg-black opacity-50"
+        onClick={onClose}
+      ></div>
+      <div className="bg-white rounded-lg shadow-xl z-10 max-w-4xl w-full mx-4 flex flex-col max-h-[90vh]">
+        <div className="flex justify-between items-center border-b p-4">
+          <h3 className="text-lg font-medium">Book Your Meeting</h3>
+          <button
+            onClick={onClose}
+            className="text-gray-500 hover:text-gray-700"
+          >
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <div className="overflow-y-auto p-10 flex-grow">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+};
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
   const [productsDropdownOpen, setProductsDropdownOpen] = useState(false);
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
 
   // State for sub-dropdowns
   const [pebDropdownOpen, setPebDropdownOpen] = useState(false);
@@ -30,6 +62,18 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  // Open booking popup
+  const openBookingPopup = () => {
+    closeAllDropdowns();
+    setIsPopupOpen(true);
+  };
+
+  // Close booking popup
+  const closeBookingPopup = () => {
+    setIsPopupOpen(false);
+  };
+
 
   // Function to close all dropdowns
   const closeAllDropdowns = () => {
@@ -283,13 +327,19 @@ const Navbar = () => {
             <NavLink to="/blog" className="text-gray-700 hover:text-blue-600">Blog</NavLink>
             <NavLink to="/career" className="text-gray-700 hover:text-blue-600">Careers</NavLink>
 
-            <a href="#" onClick={closeAllDropdowns} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
+            <button href="#" onClick={openBookingPopup} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
               Book a Meeting
-            </a>
+            </button>
             <a href="#" onClick={closeAllDropdowns} className="bg-[#345CA5D6] text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
               Customize your own PEB
             </a>
           </div>
+
+
+          {/* Booking Meeting Popup */}
+          <Popup isOpen={isPopupOpen} onClose={closeBookingPopup}>
+            <BookMeeting />
+          </Popup>
 
           {/* Mobile menu button */}
           <div className="md:hidden">

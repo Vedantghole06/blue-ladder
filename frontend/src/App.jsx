@@ -9,7 +9,6 @@ import AboutTeam from './pages/AboutTeam'
 import AboutPeb from './pages/AboutPeb'
 import OurProject from './pages/OurProject'
 import Career from './pages/Career'
-import BookMeeting from './pages/BookMeeting'
 import PositionPage from './pages/PositionPage'
 import BlogPage from './pages/Blog'
 import SmartAndGreen from './pages/SmartAndGreen'
@@ -46,7 +45,6 @@ const App = () => {
         <Route path="/about/peb" element={<AboutPeb />} />
         <Route path="/our-project" element={<OurProject />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/book-meeting" element={<BookMeeting />} />
         <Route path="/career" element={<Career />} />
         <Route path="/career/positions" element={<PositionPage />} />
         <Route path="/blog" element={<BlogPage />} />

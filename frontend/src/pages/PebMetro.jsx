@@ -22,7 +22,7 @@ const PebMetro = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-shed-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/src/assets/peb-metro-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -34,7 +34,7 @@ const PebMetro = () => {
                 <div className="relative h-full flex flex-col items-center justify-center text-white px-4">
                     {/* Main heading */}
                     <h1 className="text-4xl md:text-5xl font-bold mb-4 text-center">
-                        PEB Sheds
+                        PEB Metro Stations
                     </h1>
 
                     {/* Breadcrumb navigation */}
@@ -43,7 +43,7 @@ const PebMetro = () => {
                         <span className="mx-2">/</span>
                         <span className="hover:underline">Pre Engineered Steel Structures </span>
                         <span className="mx-2">/</span>
-                        <span className="text-[#8CB5FF] font-bold text-xl">PEB Sheds</span>
+                        <span className="text-[#8CB5FF] font-bold text-xl">PEB Metro Stations</span>
                     </div>
                 </div>
             </div>
@@ -76,50 +76,108 @@ const PebMetro = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-shed-img1.png"
+                                src="/src/assets/peb-metro-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />
 
+                            <h1 className='text-xl text-center font-bold'>PEB Metro Stations</h1>
+
                             <p className='leading-base mt-6'>
-                                <span className='font-semibold'>Blueladder PEB Shed Manufacturer in India</span> EPC has established itself as the fastest-growing industrial shed manufacturer and supplier in Central India, catering to the diverse demands of the construction industry. We are the leading producer of prefabricated buildings & we provide excellent solutions for industrial sheds at competitive construction expenses. The utilization of pre-engineered constructions has gained popularity across various industries, with a particular focus on the highly desirable pre-engineered industrial sheds.
-                                <br />
-                                In PEB sheds pre cast panels are lifted into place and connected together using bolts or other fasteners. Because the panels are precast, they can be made in a factory setting, which allows for faster construction and more consistent quality.
+                                PEB Metro stations refer to the stations on a metro (or subway) system in a city that uses pre-engineered buildings (PEB) as the structural element for the construction of the stations. Pre-engineered buildings are prefabricated structures that are manufactured off-site and then assembled on-site. They are a cost-effective and efficient solution for the construction of buildings and are often used for industrial, commercial, and infrastructure projects. The use of PEB structures for metro stations allows for the rapid construction of these stations, as the prefabricated components can be easily assembled on-site.
                             </p>
                         </div>
                     </div>
                 </div>
 
 
+                <div className=" p-10 md:p-10 lg:p-10 rounded-lg mx-auto">
+                    <h2 className="text-gray-800 text-xl md:text-2xl font-bold mb-6">Why Choose Blueladder EPC Solutions for PEB Metro Stations?</h2>
 
-                <div className="flex flex-wrap justify-center md:justify-evenly items-center mb-8 px-5">
-                    {/* Building Illustration */}
-                    <div className="flex justify-center md:block">
-                        <img
-                            src="/src/assets/peb-shed-img2.png"
-                            alt="Pre-engineered building structure diagram"
-                            className="w-[300px] md:w-[400px] h-auto"
-                        />
+                    <div className="space-y-6">
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Expertise in Metro Station PEB Construction:</span> With years of experience in the construction industry, we have honed our skills to deliver metro station projects that exceed expectations. Our dedicated team of engineers and architects specializes in PEB solutions tailored to the intricate needs of metro stations.
+                            </p>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Cutting-Edge Technology:</span> We harness the latest technological advancements to streamline the construction process and enhance the performance of metro stations. Our use of advanced materials and methods ensures structural integrity, durability, and energy efficiency.
+                            </p>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Sustainable Solutions:</span> Blueladder EPC Solutions is committed to environmentally responsible construction. We prioritize sustainable building practices, including energy-efficient designs, renewable materials, and waste reduction, to minimize the carbon footprint of metro stations.
+                            </p>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Timely Delivery:</span> We recognize the importance of meeting project deadlines. Our streamlined processes and efficient project management guarantee on-time delivery of your PEB metro station project, keeping your transportation network on track.
+                            </p>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Compliance and Safety:</span> Safety is our top priority. We adhere to all industry standards and regulations to ensure the safety of construction workers and the future users of metro stations. Our commitment to compliance minimizes risks and ensures project success.
+                            </p>
+                        </div>
+
+                        <div className="flex items-start">
+                            <div className="text-blue-600 mr-2 mt-1 flex-shrink-0">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                </svg>
+                            </div>
+                            <p className="text-gray-800 text-sm md:text-base">
+                                <span className="font-medium">Customized Solutions:</span> Every metro station project is unique. Blueladder EPC Solutions works closely with clients to understand their specific requirements and tailors our PEB solutions to meet these needs, resulting in a metro station that perfectly aligns with your vision.
+                            </p>
+                        </div>
                     </div>
 
-                    {/* Text Content */}
-                    <div className="max-w-full md:w-[700px] text-center md:text-left px-4">
-                        <h2 className="text-lg md:text-xl font-semibold mb-4 md:mb-6">
-                            PEB SHEDS – INDUSTRIAL STRUCTURES THAT LAST LONG
-                        </h2>
-
-                        <p className="text-sm md:text-base">
-                            At Blueladder EPC, the leading industrial shed company in India, we prioritize custom-designed architecture and
-                            client-specific construction. Our pre-engineered structures are crafted to meet the unique requirements of each
-                            customer, forming the cornerstone of our progress and success. With a meticulous manufacturing process and the
-                            use of high-quality raw materials, we confidently offer a lifetime guarantee of durability and exceptional
-                            service for these industrial PEB sheds. Here are the remarkable features of our pre-engineered fabricated structures:
-                        </p>
-                    </div>
+                </div>
+                <div className="p-12 text-center text-[#024965] text-lg md:text-lg">
+                    <p>Are you ready to elevate your metro station project with our top-notch PEB solutions? Blueladder EPC Solutions is your trusted partner for sustainable and innovative construction. Contact us today to discuss your metro station project and discover how we can bring your vision to life.</p>
                 </div>
 
-
-
+                <div className="w-full mx-auto md:-mb-2 ">
+                    {/* Train image */}
+                    <div className="flex justify-center">
+                        <img
+                            src="/src/assets/peb-metro-img2.png"
+                            alt="High-speed passenger train"
+                            className="w-full h-auto object-contain"
+                            title="Metro transit high-speed train"
+                        />
+                    </div>
+                </div>
             </div>
 
         </>

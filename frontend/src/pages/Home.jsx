@@ -538,150 +538,160 @@ const Home = () => {
 
 
 
-            {/* BenefitsDiagram */}
+            {/* Benifits */}
 
-            <div className="bg-gradient-to-b from-white to-gray-100 py-16 px-4">
-                <div className="container mx-auto max-w-5xl">
-                    {/* Heading */}
-                    <h2 className="text-2xl md:text-3xl font-medium text-[#345CA5] text-center mb-16">
-                        Benefits of Pre Engineered Steel Structures:
-                    </h2>
+            <div className="bg-gradient-to-b from-white to-gray-100 py-8 sm:py-12 px-4">
+                <h2 className="text-[#345CA5] text-xl sm:text-2xl md:text-3xl font-medium text-center mb-8 sm:mb-16">
+                    Benefits of Pre Engineered Steel Structures:
+                </h2>
 
-                    {/* Benefits Diagram */}
-                    <div className="relative">
-                        {/* Circle Background - Only visible on larger screens */}
-                        <div className="hidden md:block absolute inset-0 mx-auto my-auto w-3/4 h-3/4 border-4 border-gray-300 rounded-full opacity-30" aria-hidden="true"></div>
+                {/* Desktop Layout (Circle with positioned cards) - Hidden on small screens */}
+                <div className="relative max-w-4xl mx-auto h-[500px] hidden md:block">
+                    {/* Circle Background */}
+                    <div className="absolute w-[70%] h-[70%] border-4 border-gray-300 rounded-full opacity-30 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
 
-                        {/* Benefits Cards */}
-                        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 relative z-10">
-                            {/* Top Left Card */}
-                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center ml-0 md:ml-8">
-                                <p className="text-base md:text-lg">
-                                    Pre-engineered building structures have lightweight construction and speedy installation.
-                                </p>
-                            </div>
+                    {/* Top Left Card */}
+                    <div className="absolute top-0 left-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm lg:text-base leading-relaxed">
+                            Pre-engineered building structures have lightweight construction and speedy installation.
+                        </p>
+                    </div>
 
-                            {/* Top Right Card */}
-                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center mr-0 md:mr-8">
-                                <p className="text-base md:text-lg">
-                                    The building's insulated walls and facets enhance weatherproofing and energy efficiency.
-                                </p>
-                            </div>
+                    {/* Top Right Card */}
+                    <div className="absolute top-0 right-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm lg:text-base leading-relaxed">
+                            The building's insulated walls and facets enhance weatherproofing and energy efficiency.
+                        </p>
+                    </div>
 
-                            {/* Middle Card */}
-                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center mx-auto col-span-1 md:col-span-2 max-w-sm">
-                                <p className="text-base md:text-lg">
-                                    PEB structures require low maintenance due to high-quality materials and precise manufacturing.
-                                </p>
-                            </div>
+                    {/* Middle Card */}
+                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm lg:text-base leading-relaxed">
+                            PEB structures require low maintenance due to high-quality materials and precise manufacturing.
+                        </p>
+                    </div>
 
-                            {/* Bottom Right Card (Responsive Order Changed) */}
-                            <div className="bg-[#345CA5] text-white p-5 rounded-lg shadow-md text-center md:col-start-2 md:mr-8">
-                                <p className="text-base md:text-lg">
-                                    Pre-engineered buildings have a variety of finishing options that add aesthetic appeal.
-                                </p>
-                            </div>
-                        </div>
+                    {/* Bottom Left Card */}
+                    <div className="absolute bottom-0 left-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm lg:text-base leading-relaxed">
+                            Pre-engineered steel buildings offer cost-effectiveness through reduced construction time and labor costs.
+                        </p>
+                    </div>
+
+                    {/* Bottom Right Card */}
+                    <div className="absolute bottom-0 right-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm lg:text-base leading-relaxed">
+                            Pre-engineered buildings have a variety of finishing options that add aesthetic appeal.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Mobile and Tablet Layout (Stacked cards) - Shown only on small and medium screens */}
+                <div className="md:hidden space-y-4 max-w-md mx-auto">
+                    {/* Card 1 */}
+                    <div className="bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            Pre-engineered building structures have lightweight construction and speedy installation.
+                        </p>
+                    </div>
+
+                    {/* Card 2 */}
+                    <div className="bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            The building's insulated walls and facets enhance weatherproofing and energy efficiency.
+                        </p>
+                    </div>
+
+                    {/* Card 3 */}
+                    <div className="bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            PEB structures require low maintenance due to high-quality materials and precise manufacturing.
+                        </p>
+                    </div>
+
+                    {/* Card 4 */}
+                    <div className="bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            Pre-engineered steel buildings offer cost-effectiveness through reduced construction time and labor costs.
+                        </p>
+                    </div>
+
+                    {/* Card 5 */}
+                    <div className="bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                        <p className="text-sm sm:text-base leading-relaxed">
+                            Pre-engineered buildings have a variety of finishing options that add aesthetic appeal.
+                        </p>
                     </div>
                 </div>
             </div>
+
+
 
 
 
             {/* WhyChooseUsSection */}
 
-            <div className="bg-white py-12 px-4">
-                <div className="container mx-auto max-w-6xl">
-                    {/* Heading */}
-                    <h2 className="text-2xl md:text-3xl font-medium text-blue-700 text-center mb-6">
-                        Why Choose us
-                    </h2>
-
-                    {/* Description */}
-                    <p className="text-gray-700 text-center mb-12 max-w-3xl mx-auto">
+            <div className="max-w-6xl mx-auto px-4 py-12">
+                <div className="text-center mb-10">
+                    <h2 className="text-3xl font-bold text-blue-700 mb-4">Why Choose us</h2>
+                    <p className="text-gray-600 max-w-3xl mx-auto">
                         Our team excels in delivering cutting-edge solutions for Pre-Engineered Building
                         systems. With a state-of-the-art manufacturing facility, we provide high-quality
                         PEB structures and comprehensive turnkey engineering services.
                     </p>
+                </div>
 
-                    {/* Stats and Images Grid */}
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
-                        {/* Left Column - Stats */}
-                        <div className="col-span-1 lg:col-span-1">
-                            {/* Stat 1 */}
-                            <div className="border-t border-gray-200 py-6 px-4">
-                                <h3 className="text-3xl text-blue-600 font-medium mb-2">700+</h3>
+                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
+                    {/* Stats and text column (left side) */}
+                    <div className="col-span-1">
+                        <div className="border-t border-gray-200">
+                            <div className="py-6 px-4 border-b border-gray-200">
+                                <h3 className="text-3xl font-bold text-blue-600">700<span className="text-blue-400">+</span></h3>
                                 <p className="text-gray-600">Total Projects</p>
                             </div>
+                        </div>
 
-                            {/* Stat 2 */}
-                            <div className="border-t border-gray-200 py-6 px-4">
-                                <h3 className="text-3xl text-blue-600 font-medium mb-2">1300000sq ft</h3>
+                        <div className="border-b border-gray-200">
+                            <div className="py-6 px-4">
+                                <h3 className="text-3xl font-bold text-blue-600">300<span className="text-blue-400">+</span></h3>
+                                <p className="text-gray-600">Professional Team Member</p>
+                            </div>
+                        </div>
+
+                        <div className="border-b border-gray-200">
+                            <div className="py-6 px-4">
+                                <h3 className="text-3xl font-bold text-blue-600">1300000<span className="text-blue-400">sq ft</span></h3>
                                 <p className="text-gray-600">Quantum Delivered</p>
                             </div>
                         </div>
 
-                        {/* Middle Column - Stats */}
-                        <div className="col-span-1 lg:col-span-1">
-                            {/* Stat 3 */}
-                            <div className="border-t border-l-0 md:border-l border-gray-200 py-6 px-4">
-                                <h3 className="text-3xl text-blue-600 font-medium mb-2">300+</h3>
-                                <p className="text-gray-600">Professional Team Member</p>
-                            </div>
-
-                            {/* Stat 4 */}
-                            <div className="border-t border-l-0 md:border-l border-gray-200 py-6 px-4">
-                                <h3 className="text-3xl text-blue-600 font-medium mb-2">9+</h3>
+                        <div className="border-b border-gray-200">
+                            <div className="py-6 px-4">
+                                <h3 className="text-3xl font-bold text-blue-600">9<span className="text-blue-400">+</span></h3>
                                 <p className="text-gray-600">Regional Office</p>
                             </div>
-
-                            {/* Additional text */}
-                            <div className="border-t border-l-0 md:border-l border-gray-200 py-6 px-4">
-                                <p className="text-gray-700">
-                                    We Work Together With Our Clients To Design And Construct Homes And Surroundings That Match Their Values And Way Of Life.
-                                </p>
-
-                                <div className="mt-8">
-                                    <button className="bg-blue-600 hover:bg-blue-700 text-white py-3 px-8 rounded-lg uppercase text-sm font-medium transition-colors">
-                                        Explore More
-                                    </button>
-                                </div>
-                            </div>
                         </div>
 
-                        {/* Right Column - Images */}
-                        <div className="col-span-1 lg:col-span-1 flex flex-col border-l-0 lg:border-l border-gray-200">
-                            {/* Top Image */}
-                            <div className="border-t border-gray-200 p-4">
-                                <img
-                                    src="/api/placeholder/400/200"
-                                    alt="Modern building exterior"
-                                    className="w-full h-40 object-cover"
-                                />
-                            </div>
-
-                            {/* Middle Image */}
-                            <div className="border-t border-gray-200 p-4">
-                                <img
-                                    src="/api/placeholder/400/300"
-                                    alt="Glass building facade"
-                                    className="w-full h-40 object-cover"
-                                />
-                            </div>
-
-                            {/* Bottom Image */}
-                            <div className="border-t border-gray-200 p-4">
-                                <img
-                                    src="/api/placeholder/400/250"
-                                    alt="Modern commercial building"
-                                    className="w-full h-48 object-cover"
-                                />
-                            </div>
+                        <div className="py-6 px-4">
+                            <p className="text-gray-600 mb-6">
+                                We Work Together With Our Clients To Design And Construct Homes And Surroundings That Match Their Values And Way Of Life.
+                            </p>
+                            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded uppercase text-sm">
+                                Explore More
+                            </button>
                         </div>
+                    </div>
+
+                    {/* Single image column (right side) */}
+                    <div className="col-span-2">
+                        <img
+                            src="/src/assets/home-img.png"
+                            alt="building images"
+                            className="w-full h-full object-cover rounded-2xl max-h-screen md:max-h-full"
+                        />
                     </div>
                 </div>
             </div>
-
 
 
             {/* Services */}
