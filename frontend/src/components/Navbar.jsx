@@ -327,9 +327,10 @@ const Navbar = () => {
             <NavLink to="/blog" className="text-gray-700 hover:text-blue-600">Blog</NavLink>
             <NavLink to="/career" className="text-gray-700 hover:text-blue-600">Careers</NavLink>
 
-            <button href="#" onClick={openBookingPopup} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
+            <button onClick={openBookingPopup} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
               Book a Meeting
             </button>
+
             <a href="#" onClick={closeAllDropdowns} className="bg-[#345CA5D6] text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300">
               Customize your own PEB
             </a>
@@ -548,9 +549,10 @@ const Navbar = () => {
               <NavLink to="/career" className="text-gray-700 hover:text-blue-600">Careers</NavLink>
 
               <div className="pt-3 space-y-3">
-                <a href="#" onClick={closeAllDropdowns} className="block bg-amber-200 text-gray-700 px-4 py-2 rounded text-center hover:bg-amber-300">
+                <button onClick={openBookingPopup} className="bg-[#CABA99] text-gray-700 px-4 py-2 rounded hover:bg-amber-300 transition duration-300">
                   Book a Meeting
-                </a>
+                </button>
+
                 <a href="#" onClick={closeAllDropdowns} className="block bg-blue-600 text-white px-4 py-2 rounded text-center hover:bg-blue-700">
                   Customize your own PEB
                 </a>
