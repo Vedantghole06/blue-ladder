@@ -22,7 +22,7 @@ const PebSheds = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-shed-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-shed-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PebSheds = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-shed-img1.png"
+                                src="/peb-shed-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />
@@ -96,7 +96,7 @@ const PebSheds = () => {
                     {/* Building Illustration */}
                     <div className="flex justify-center md:block">
                         <img
-                            src="/src/assets/peb-shed-img2.png"
+                            src="/peb-shed-img2.png"
                             alt="Pre-engineered building structure diagram"
                             className="w-[300px] md:w-[400px] h-auto"
                         />

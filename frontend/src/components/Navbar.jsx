@@ -146,7 +146,7 @@ const Navbar = () => {
           <div className="flex items-center">
             <div className="mr-2">
               <img
-                src="/src/assets/logo.png"
+                src="/logo.png"
                 alt="Blue Ladder"
                 className="h-12 w-auto"
               />

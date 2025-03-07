@@ -13,19 +13,19 @@ const Mep = () => {
             id: 1,
             title: "Mechanical",
             description: "",
-            imageUrl: "/src/assets/mechanical.png", // Replace with your actual image
+            imageUrl: "/mechanical.png", // Replace with your actual image
         },
         {
             id: 2,
             title: "Electrical",
             description: "Powering Reliable & Safe Connections",
-            imageUrl: "/src/assets/electrical.png", // Replace with your actual image
+            imageUrl: "/electrical.png", // Replace with your actual image
         },
         {
             id: 3,
             title: "Plumbing",
             description: "",
-            imageUrl: "/src/assets/plumbing.png", // Replace with your actual image
+            imageUrl: "/plumbing.png", // Replace with your actual image
         }
     ];
 
@@ -37,7 +37,7 @@ const Mep = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/mep-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/mep-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -69,7 +69,7 @@ const Mep = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
+                        backgroundImage: "url('/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -100,7 +100,7 @@ const Mep = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/mep-img.png"
+                                src="/mep-img.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -139,7 +139,7 @@ const Mep = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/src/assets/mep-img1.png"
+                                        src="/mep-img1.png"
                                         alt="3D model of building structure"
                                         className="w-48 h-auto -mb-7 object-contain opacity-80 grayscale"
                                     />

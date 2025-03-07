@@ -22,7 +22,7 @@ const PebSpinning = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-spinning-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-spinning-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PebSpinning = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-spinning-img1.png"
+                                src="/peb-spinning-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />

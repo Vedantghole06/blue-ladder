@@ -22,7 +22,7 @@ const PebMills = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-mills-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-mills-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PebMills = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-shed-img1.png"
+                                src="/peb-shed-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />
@@ -96,7 +96,7 @@ const PebMills = () => {
                     {/* Background decorative image - centered */}
                     <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-0">
                         <img
-                            src="/src/assets/peb-mills-bg.png"
+                            src="/peb-mills-bg.png"
                             alt=""
                             width={600}
                             height={600}

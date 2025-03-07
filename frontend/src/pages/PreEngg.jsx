@@ -22,7 +22,7 @@ const PreEngg = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/pre-engg-main-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/pre-engg-main-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -74,7 +74,7 @@ const PreEngg = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/pre-engg-img1.png"
+                                src="/pre-engg-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[500px] rounded-4xl shadow-md object-cover"
                             />
@@ -223,14 +223,14 @@ const PreEngg = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                             <div className="rounded-4xl overflow-hidden">
                                 <img
-                                    src="/src/assets/pre-engg-img2.png"
+                                    src="/pre-engg-img2.png"
                                     alt="Construction professional reviewing blueprints"
                                     className="w-full h-48 object-cover"
                                 />
                             </div>
                             <div className="rounded-4xl overflow-hidden">
                                 <img
-                                    src="/src/assets/pre-engg-img3.png"
+                                    src="/pre-engg-img3.png"
                                     alt="Construction workers at job site"
                                     className="w-full h-48 object-cover"
                                 />
@@ -345,7 +345,7 @@ const PreEngg = () => {
                             </div>
                             <div className="md:w-1/2 flex justify-center md:justify-end">
                                 <img
-                                    src="/src/assets/pre-engg-girl.png"
+                                    src="/pre-engg-girl.png"
                                     alt="Construction professional in safety gear"
                                     className="max-h-80 -mb-16 object-contain"
                                 />

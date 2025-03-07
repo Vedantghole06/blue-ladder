@@ -23,7 +23,7 @@ const PebMultiStory = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-multistory-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-multistory-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -77,7 +77,7 @@ const PebMultiStory = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-multistory-img1.png"
+                                src="/peb-multistory-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[440px] rounded-4xl object-contain"
                             />
@@ -187,7 +187,7 @@ const PebMultiStory = () => {
                         {/* Bottom right corner background image */}
                         <div className="absolute right-0 bottom-0">
                             <img
-                                src="/src/assets/peb-multistory-bg-img2.png"
+                                src="/peb-multistory-bg-img2.png"
                                 alt="Building blueprint background bottom right"
                                 className="object-contain opacity-20"
                             />

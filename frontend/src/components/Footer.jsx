@@ -30,7 +30,7 @@ const Footer = () => {
             {/* Logo Column */}
             <div>
               <img
-                src="/src/assets/logo.png"
+                src="/logo.png"
                 alt="Blue Ladder"
                 className="h-18 w-auto mb-3"
               />

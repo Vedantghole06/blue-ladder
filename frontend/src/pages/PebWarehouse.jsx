@@ -22,7 +22,7 @@ const PebWarehouse = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-warehouse-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-warehouse-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PebWarehouse = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-warehouse-img1.png"
+                                src="/peb-warehouse-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-cover"
                             />
@@ -96,7 +96,7 @@ const PebWarehouse = () => {
                         className="absolute top-0 right-0 w-1/2 h-full opacity-70 pointer-events-none z-0"
                         style={{
                             backgroundImage:
-                                "url(/src/assets/peb-warehouse-img2.png')",
+                                "url(/peb-warehouse-img2.png')",
                             backgroundSize: "cover",
                             backgroundPosition: "center",
                             backgroundRepeat: "no-repeat",

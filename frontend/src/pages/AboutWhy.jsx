@@ -18,19 +18,19 @@ const AboutWhy = () => {
 
   const manufacturing = [
     {
-      image: "/src/assets/manufacturing1.png",
+      image: "/manufacturing1.png",
       title: "PRIMO 'H' Beam fully automatic weldingline"
     },
     {
-      image: "/src/assets/manufacturing2.png",
+      image: "/manufacturing2.png",
       title: "Hydraulic Shearing Machine"
     },
     {
-      image: "/src/assets/manufacturing3.png",
+      image: "/manufacturing3.png",
       title: "Container mounted Standing Seam Profiling machine"
     },
     {
-      image: "/src/assets/manufacturing4.png",
+      image: "/manufacturing4.png",
       title: "Fully Automatic Z/C Purlin forming machine."
     }
   ];
@@ -95,7 +95,7 @@ const AboutWhy = () => {
         <div
           className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: "url('/src/assets/aboutwhy.png')", // Replace with your actual image path
+            backgroundImage: "url('/aboutwhy.png')", // Replace with your actual image path
             backgroundPosition: "center"
           }}
         >
@@ -153,7 +153,7 @@ const AboutWhy = () => {
             <div className="order-1 lg:order-2">
               <div className=" overflow-hidden">
                 <img
-                  src="/src/assets/aboutus.png"
+                  src="/aboutus.png"
                   alt="Modern architectural house with glass walls"
                   className="w-full h-auto object-cover"
                 />
@@ -173,7 +173,7 @@ const AboutWhy = () => {
             <div>
               <div className="rounded-lg overflow-hidden">
                 <img
-                  src="/src/assets/about-us-img.png"
+                  src="/about-us-img.png"
                   alt="Construction workers in orange safety vests and hard hats"
                   className="w-96 h-auto object-cover"
                 />
@@ -201,7 +201,7 @@ const AboutWhy = () => {
                 {/* Background image in bottom right corner */}
                 <div className="absolute bottom-0 right-5 w-24 h-24">
                   <img
-                    src="/src/assets/about-us-img-bg.png"
+                    src="/about-us-img-bg.png"
                     alt="Background decoration"
                     className="w-full h-full object-cover"
                   />
@@ -275,7 +275,7 @@ const AboutWhy = () => {
 
           <div className="md:w-2/5 mt-6 md:mt-0">
             <img
-              src="/src/assets/why-us-img.png"
+              src="/why-us-img.png"
               alt="Urban skyline with high-rise buildings"
               className="w-[700px] h-96 grayscale object-cover opacity-40"
             />

@@ -22,7 +22,7 @@ const PreEnggBuilding = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/pre-building-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/pre-building-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PreEnggBuilding = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/pre-building-img1.png"
+                                src="/pre-building-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[400px] rounded-4xl shadow-md object-cover"
                             />
@@ -153,7 +153,7 @@ const PreEnggBuilding = () => {
                             {/* Building Illustration */}
                             <div className="flex justify-center items-center">
                                 <img
-                                    src="/src/assets/pre-building-img2.png"
+                                    src="/pre-building-img2.png"
                                     alt="Pre-engineered building structure diagram"
                                     className="max-w-full h-auto"
                                 />

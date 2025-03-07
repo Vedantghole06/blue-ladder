@@ -11,7 +11,7 @@ const AboutPeb = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-hero.png')", // Replace with your actual image path
                         backgroundPosition: "center"
                     }}
                 >
@@ -40,7 +40,7 @@ const AboutPeb = () => {
                 <div
                     className="absolute inset-0 z-0"
                     style={{
-                        backgroundImage: `url(/src/assets/bg-pattern.jpeg')`,
+                        backgroundImage: `url(/bg-pattern.jpeg')`,
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         filter: 'brightness(0.9)',
@@ -105,7 +105,7 @@ const AboutPeb = () => {
                             <div className="flex items-center justify-center mt-6 md:mt-0">
                                 <div className="w-full max-w-md">
                                     <img
-                                        src="/src/assets/api/placeholder/400/320"
+                                        src="/api/placeholder/400/320"
                                         alt="PEB building diagram"
                                         className="w-full object-contain"
                                     />
@@ -125,21 +125,21 @@ const AboutPeb = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4">
                         <div className="col-span-1">
                             <img
-                                src="/src/assets/api/placeholder/400/320"
+                                src="/api/placeholder/400/320"
                                 alt="Steel building exterior"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
                         <div className="col-span-1">
                             <img
-                                src="/src/assets/api/placeholder/400/320"
+                                src="/api/placeholder/400/320"
                                 alt="Steel building with red trim"
                                 className="w-full h-auto object-cover"
                             />
                         </div>
                         <div className="col-span-1">
                             <img
-                                src="/src/assets/api/placeholder/400/320"
+                                src="/api/placeholder/400/320"
                                 alt="Blue roof beams structure"
                                 className="w-full h-auto object-cover"
                             />
@@ -148,7 +148,7 @@ const AboutPeb = () => {
 
                     <div className="mb-6">
                         <img
-                            src="/src/assets/api/placeholder/400/320"
+                            src="/api/placeholder/400/320"
                             alt="Steel frame construction site"
                             className="w-full h-auto object-cover"
                         />
@@ -218,7 +218,7 @@ const AboutPeb = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url(/src/assets/pre-engg-bg.png')",
+                        backgroundImage: "url(/pre-engg-bg.png')",
                         backgroundSize: "cover",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",

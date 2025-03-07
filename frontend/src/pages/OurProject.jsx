@@ -7,37 +7,37 @@ const OurProject = () => {
         {
             id: 1,
             title: 'Metro Rails Stations',
-            image: '/src/assets/metro.png',
+            image: '/metro.png',
             description: 'We provide our Pre Engineered Building services to organizations dealing with metro construction. We have successfully delivered numerous metro station projects.'
         },
         {
             id: 2,
             title: 'Logistics Park',
-            image: '/src/assets/logistic.png',
+            image: '/logistic.png',
             description: 'Logistics parks have made significant contributions not only to the freight industry, but also to urban development and social benefits.'
         },
         {
             id: 3,
             title: 'Industrial Shed',
-            image: '/src/assets/industry.png',
+            image: '/industry.png',
             description: 'Pre Fabricated Industrial Sheds are the most promising option for Industrial Buildings due to its dynamic use cases & numerous advantages. We deliver Pre Fab industrial sheds not only as a service but as a solution.'
         },
         {
             id: 4,
             title: 'Warehouse',
-            image: '/src/assets/warehouse.png',
+            image: '/warehouse.png',
             description: 'Warehouse construction require an intelligent work process. We understand that it is important to to utilise space efficiently and there should not be any compromise in technical detailing while warehouse construction.'
         },
         {
             id: 5,
             title: 'Dal & Rice Mill',
-            image: '/src/assets/dal-mill.png',
+            image: '/dal-mill.png',
             description: 'Mill Owners often don\'t have time to engage in construction nor the risk appetite to bare delays and errors. We at Blue Ladder Solutions are committed to delivering Dal Mill & Rice Mill projects with proper timeline & customer satisfaction.'
         },
         {
             id: 6,
             title: 'Logistics Park',
-            image: '/src/assets/park.png',
+            image: '/park.png',
             description: 'Logistics parks have made significant contributions not only to the freight industry, but also to urban development and social benefits.'
         }
     ];
@@ -52,7 +52,7 @@ const OurProject = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/our-project-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/our-project-hero.png')", // Replace with your actual image path
                         backgroundPosition: "center"
                     }}
                 >
@@ -80,7 +80,7 @@ const OurProject = () => {
             <div className="relative overflow-hidden rounded-lg shadow-lg">
                 {/* The main image - fully responsive */}
                 <img
-                    src="/src/assets/ourproject.png"
+                    src="/ourproject.png"
                     alt="Modern architectural building"
                     className="w-full h-auto object-cover"
                 />

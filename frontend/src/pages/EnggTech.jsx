@@ -24,7 +24,7 @@ const EnggTech = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/engg-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/engg-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -55,7 +55,7 @@ const EnggTech = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
+                        backgroundImage: "url('/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -86,7 +86,7 @@ const EnggTech = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/engg-img1.png"
+                                src="/engg-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -124,7 +124,7 @@ const EnggTech = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/src/assets/engg-3d-model.png"
+                                        src="/engg-3d-model.png"
                                         alt="3D model of building structure"
                                         className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
@@ -178,7 +178,7 @@ const EnggTech = () => {
                                 {/* Top Left Image */}
                                 <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/src/assets/epc-img1.png"
+                                        src="/epc-img1.png"
                                         alt="Construction workers in safety gear reviewing a site"
                                         className="w-full h-full object-cover"
                                     />
@@ -187,7 +187,7 @@ const EnggTech = () => {
                                 {/* Top Right Image */}
                                 <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/src/assets/epc-img2.png"
+                                        src="/epc-img2.png"
                                         alt="Engineers looking at construction site with buildings in background"
                                         className="w-full h-full object-cover"
                                     />
@@ -206,7 +206,7 @@ const EnggTech = () => {
                                 {/* Bottom Left Image */}
                                 <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/src/assets/epc-img3.png"
+                                        src="/epc-img3.png"
                                         alt="Engineer reviewing construction plans"
                                         className="w-full h-full object-cover"
                                     />
@@ -215,7 +215,7 @@ const EnggTech = () => {
                                 {/* Bottom Right Image */}
                                 <div className="rounded-4xl overflow-hidden">
                                     <img
-                                        src="/src/assets/epc-img4.png"
+                                        src="/epc-img4.png"
                                         alt="Construction workers in safety gear at construction site"
                                         className="w-full h-full object-cover"
                                     />

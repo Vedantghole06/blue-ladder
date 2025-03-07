@@ -8,35 +8,35 @@ const AboutTeam = () => {
             name: "CA. Sagar H Bharani",
             position: "CEO",
             bio: "A Chartered Accountant turned entrepreneur, known for managing and building reputed institutes brands.",
-            image: "/src/assets/sagar.png"
+            image: "/sagar.png"
         },
         {
             id: 2,
             name: "Mr. Ghanshyam Kewalramani",
             position: "Chairman",
             bio: "A veteran businessman, known for his brilliant style of business management. He has a very rich experience of 35 Years",
-            image: "/src/assets/chairman.png"
+            image: "/chairman.png"
         },
         {
             id: 3,
             name: "Mr. Pawan Kewalramani",
             position: "Director of Sales",
             bio: "Pawan, Blue Ladder's youngest director, specializes in retail distribution and channel sales.",
-            image: "/src/assets/director-sale.png"
+            image: "/director-sale.png"
         },
         {
             id: 4,
             name: "Mr. Aman Bharani",
             position: "Director of Sales & Marketing",
             bio: "Aman, an MBA from IIT Hyderabad, has 7+ years of experience in senior roles in Fin-tech and Retail.",
-            image: "/src/assets/director-marketing.png"
+            image: "/director-marketing.png"
         },
         {
             id: 5,
             name: "Mr. Sagar Kewalramani",
             position: "Director of Sales",
             bio: "Sagar, an MBA from IMT, began his journey with PEB at Blue Ladder and is a true visionary.",
-            image: "/src/assets/director-sale1.png"
+            image: "/director-sale1.png"
         }
     ];
     return (
@@ -48,7 +48,7 @@ const AboutTeam = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/ourteam.png')", // Replace with your actual image path
+                        backgroundImage: "url('/ourteam.png')", // Replace with your actual image path
                         backgroundPosition: "center"
                     }}
                 >

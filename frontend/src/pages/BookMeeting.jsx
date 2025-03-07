@@ -145,7 +145,7 @@ const BookMeeting = () => {
                     <div className="p-6 md:w-1/2 border-b md:border-b-0 md:border-r border-gray-200">
                         <div className="flex flex-col items-center mb-6">
                             <img
-                                src="/src/assets/logo.png"
+                                src="/logo.png"
                                 alt="Blue Ladder Logo"
                                 className="w-40 h-20 mb-2"
                             />
@@ -154,7 +154,7 @@ const BookMeeting = () => {
                         <div className="border-t border-black pt-4 mt-2">
                             <div className="flex items-center mb-4">
                                 <img
-                                    src="/src/assets/logo.png"
+                                    src="/logo.png"
                                     alt="Blue Ladder Logo"
                                     className="w-20 h-10 mb-2"
                                 />
@@ -179,7 +179,7 @@ const BookMeeting = () => {
                             )}
 
                             <img
-                                src="/src/assets/ourproject.png"
+                                src="/ourproject.png"
                                 alt="Blue Ladder Logo"
                                 className="w-full h-auto mb-2"
                             />

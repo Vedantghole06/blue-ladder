@@ -8,25 +8,25 @@ const Career = () => {
             id: 1,
             title: "Company Values",
             description: "Trust, listening, honesty, and co-operation are the pillars that set our work culture apart.",
-            image: "/src/assets/career-img1.png"
+            image: "/career-img1.png"
         },
         {
             id: 2,
             title: "Friendly atmosphere",
             description: "We hold a positive attitude in order to foster respect and development for everyone.",
-            image: "/src/assets/career-img2.png"
+            image: "/career-img2.png"
         },
         {
             id: 3,
             title: "Work-life balance",
             description: "For us, a healthy personal life is just as important as the time dedicated to our work.",
-            image: "/src/assets/career-img3.png"
+            image: "/career-img3.png"
         },
         {
             id: 4,
             title: "Everyday grow",
             description: "We provide the necessary support to ensure your skills reach steady growth.",
-            image: "/src/assets/career-img4.png"
+            image: "/career-img4.png"
         }
     ];
 
@@ -83,7 +83,7 @@ const Career = () => {
             <div className="relative w-full bg-gray-800 text-white overflow-hidden">
                 {/* Background image with overlay */}
                 <div className="absolute inset-0 bg-cover bg-center" style={{
-                    backgroundImage: 'url("/src/assets/career-hero.png")', // Replace with your actual image URL
+                    backgroundImage: 'url("/career-hero.png")', // Replace with your actual image URL
                     opacity: 0.5
                 }}></div>
                 {/* Overlay gradient */}
@@ -111,7 +111,7 @@ const Career = () => {
                             {/* Logo as an image */}
                             <div className="relative w-56 md:w-72">
                                 <img
-                                    src="/src/assets/logo.png" // Replace with your actual logo image URL
+                                    src="/logo.png" // Replace with your actual logo image URL
                                     alt="Blueladder Logo"
                                     className="w-full h-auto"
                                 />
@@ -297,7 +297,7 @@ const Career = () => {
                     <div className="w-full md:w-1/2 flex justify-center md:justify-end">
                         {/* Building/Structure Icon */}
                         <div className="w-48 h-48 md:w-64 md:h-64">
-                            <img src="/src/assets/career-follow.png" alt="" />
+                            <img src="/career-follow.png" alt="" />
                         </div>
                     </div>
                 </div>

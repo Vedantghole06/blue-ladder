@@ -47,7 +47,7 @@ const Peb = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-main-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-main-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -79,7 +79,7 @@ const Peb = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
+                        backgroundImage: "url('/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -110,7 +110,7 @@ const Peb = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-img2.png"
+                                src="/peb-img2.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -149,7 +149,7 @@ const Peb = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/src/assets/peb-3d-model.png"
+                                        src="/peb-3d-model.png"
                                         alt="3D model of building structure"
                                         className="w-48 h-auto object-contain -mb-7 opacity-80 grayscale"
                                     />
@@ -206,7 +206,7 @@ const Peb = () => {
                         {/* Right side - Building illustration */}
                         <div className="w-full md:w-2/5 mt-8 md:mt-0">
                             <img
-                                src="/src/assets/peb-img.png"
+                                src="/peb-img.png"
                                 alt="Building construction with cranes illustration"
                                 className="w-full h-96 object-cover rounded-4xl"
                             />

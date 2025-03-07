@@ -9,7 +9,7 @@ const SmartAndGreen = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/smartgreen.png')", // Replace with your actual image path
+                        backgroundImage: "url('/smartgreen.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -52,7 +52,7 @@ const SmartAndGreen = () => {
 
                     <div className="w-full md:w-1/2">
                         <img
-                            src="/src/assets/greenbuilding.png"
+                            src="/greenbuilding.png"
                             alt="Smart green building diagram showing various eco-friendly features"
                             className="w-full h-auto object-contain"
                         />

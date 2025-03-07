@@ -12,7 +12,7 @@ const ContactUs = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/contact-img.png')", // Replace with your actual image path
+                        backgroundImage: "url('/contact-img.png')", // Replace with your actual image path
                         backgroundPosition: "center"
                     }}
                 >
@@ -84,7 +84,7 @@ const ContactUs = () => {
                 <div
                     className="absolute inset-0 z-0 bg-cover bg-center opacity-60"
                     style={{
-                        backgroundImage: "url('/src/assets/dotted-pattern.png')",
+                        backgroundImage: "url('/dotted-pattern.png')",
                     }}
                 />
 
@@ -117,7 +117,7 @@ const ContactUs = () => {
                             {/* Customer Support Image */}
                             <div className="mt-auto flex justify-center">
                                 <img
-                                    src="/src/assets/contact-girl.png"
+                                    src="/contact-girl.png"
                                     alt="Customer Support"
                                     className="mt-6 -mb-6"
                                     style={{ maxHeight: '180px' }}

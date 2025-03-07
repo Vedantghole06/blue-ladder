@@ -22,7 +22,7 @@ const PoultryShed = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/poultry-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/poultry-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PoultryShed = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/poultry-img1.png"
+                                src="/poultry-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[400px] rounded-4xl object-contain"
                             />
@@ -125,7 +125,7 @@ const PoultryShed = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/src/assets/poultry-3d-model.png"
+                                        src="/poultry-3d-model.png"
                                         alt="3D model of building structure"
                                         className="w-48 h-auto object-contain -mb-8 grayscale"
                                     />

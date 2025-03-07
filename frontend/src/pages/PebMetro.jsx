@@ -22,7 +22,7 @@ const PebMetro = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/peb-metro-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/peb-metro-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -76,7 +76,7 @@ const PebMetro = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/peb-metro-img1.png"
+                                src="/peb-metro-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />
@@ -171,7 +171,7 @@ const PebMetro = () => {
                     {/* Train image */}
                     <div className="flex justify-center">
                         <img
-                            src="/src/assets/peb-metro-img2.png"
+                            src="/peb-metro-img2.png"
                             alt="High-speed passenger train"
                             className="w-full h-auto object-contain"
                             title="Metro transit high-speed train"

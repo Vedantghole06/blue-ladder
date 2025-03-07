@@ -13,19 +13,19 @@ const CivilFoundation = () => {
             id: 1,
             title: "Excavation & Site Preparation",
             description: "",
-            imageUrl: "/src/assets/mechanical.png", // Replace with your actual image
+            imageUrl: "/mechanical.png", // Replace with your actual image
         },
         {
             id: 2,
             title: "Reinforcement & Formwork",
             description: "Strengthening the base with high-quality materials for long-term durability.",
-            imageUrl: "/src/assets/electrical.png", // Replace with your actual image
+            imageUrl: "/electrical.png", // Replace with your actual image
         },
         {
             id: 3,
             title: "Concrete Pouring & Finishing",
             description: "",
-            imageUrl: "/src/assets/plumbing.png", // Replace with your actual image
+            imageUrl: "/plumbing.png", // Replace with your actual image
         }
     ];
 
@@ -39,7 +39,7 @@ const CivilFoundation = () => {
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/src/assets/civil-foundation-hero.png')", // Replace with your actual image path
+                        backgroundImage: "url('/civil-foundation-hero.png')", // Replace with your actual image path
                         backgroundPosition: 'center',
                     }}
                 >
@@ -72,7 +72,7 @@ const CivilFoundation = () => {
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url('/src/assets/bg-pattern.jpeg')",
+                        backgroundImage: "url('/bg-pattern.jpeg')",
                         backgroundSize: 'cover',
                         backgroundPosition: 'center',
                         backgroundRepeat: 'no-repeat',
@@ -103,7 +103,7 @@ const CivilFoundation = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/src/assets/civil-foundation-img1.png"
+                                src="/civil-foundation-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[420px] rounded-4xl shadow-md object-cover"
                             />
@@ -140,7 +140,7 @@ const CivilFoundation = () => {
                                 {/* 3D Building Model Image */}
                                 <div className="mt-8 flex justify-center">
                                     <img
-                                        src="/src/assets/civil-foundation-3d-model.png"
+                                        src="/civil-foundation-3d-model.png"
                                         alt="3D model of building structure"
                                         className="w-76 h-auto object-contain -mb-8 opacity-80 grayscale"
                                     />
