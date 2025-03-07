@@ -76,7 +76,7 @@ const PebMills = () => {
                         {/* Construction Image */}
                         <div className="md:w-2/3">
                             <img
-                                src="/peb-shed-img1.png"
+                                src="/peb-mills-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"
                                 className="w-full h-[460px] rounded-4xl object-contain"
                             />
@@ -210,7 +210,7 @@ const PebMills = () => {
                         <div className="w-full md:w-1/3 mt-4 md:mt-0">
                             <div className="relative w-full h-48 md:h-64">
                                 <img
-                                    src="/api/placeholder/400/320"
+                                    src="/peb-mills-img2.png"
                                     alt="PEB Mill Storage Building"
                                     className="w-full h-full object-contain"
                                 />
