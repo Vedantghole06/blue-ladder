@@ -548,40 +548,33 @@ const Home = () => {
                 {/* Desktop Layout (Circle with positioned cards) - Hidden on small screens */}
                 <div className="relative max-w-4xl mx-auto h-[500px] hidden md:block">
                     {/* Circle Background */}
-                    <div className="absolute w-[70%] h-[70%] border-4 border-gray-300 rounded-full opacity-30 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
+                    {/* <div className="absolute w-[70%] h-[70%] border-4 border-gray-300 rounded-full opacity-30 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div> */}
 
                     {/* Top Left Card */}
-                    <div className="absolute top-0 left-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                    <div className="absolute top-20 left-30 transform -translate-x-1/2 -translate-y-1/2 left w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
                         <p className="text-sm lg:text-base leading-relaxed">
                             Pre-engineered building structures have lightweight construction and speedy installation.
                         </p>
                     </div>
 
                     {/* Top Right Card */}
-                    <div className="absolute top-0 right-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                    <div className="absolute top-20 right-20 transform -translate-x-1/2 -translate-y-1/2 left w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
                         <p className="text-sm lg:text-base leading-relaxed">
                             The building's insulated walls and facets enhance weatherproofing and energy efficiency.
                         </p>
                     </div>
 
                     {/* Middle Card */}
-                    <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                    <div className="absolute bottom-20 -right-40 transform -translate-x-1/2 -translate-y-1/2 left w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
                         <p className="text-sm lg:text-base leading-relaxed">
                             PEB structures require low maintenance due to high-quality materials and precise manufacturing.
                         </p>
                     </div>
 
-                    {/* Bottom Left Card */}
-                    <div className="absolute bottom-0 left-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
+                    {/* Middle Card */}
+                    <div className="absolute bottom-20 left-90 transform -translate-x-1/2 -translate-y-1/2 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
                         <p className="text-sm lg:text-base leading-relaxed">
-                            Pre-engineered steel buildings offer cost-effectiveness through reduced construction time and labor costs.
-                        </p>
-                    </div>
-
-                    {/* Bottom Right Card */}
-                    <div className="absolute bottom-0 right-0 w-[220px] bg-[#345CA5] text-white p-5 rounded-md shadow text-center">
-                        <p className="text-sm lg:text-base leading-relaxed">
-                            Pre-engineered buildings have a variety of finishing options that add aesthetic appeal.
+                            PEB structures require low maintenance due to high-quality materials and precise manufacturing.
                         </p>
                     </div>
                 </div>
