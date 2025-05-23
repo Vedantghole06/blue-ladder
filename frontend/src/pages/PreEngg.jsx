@@ -61,9 +61,7 @@ const PreEngg = () => {
                                 {services.map((service) => (
                                     <div key={service.id} className="border-b pb-4">
                                         <div className="flex items-center">
-                                            <div className="w-6 h-6 rounded-full bg-blue-100 flex items-center justify-center mr-3">
-                                                <span className="text-blue-600 text-sm">✓</span>
-                                            </div>
+                                                <img src="/arrow-right.png" alt="" className='w-6 h-6 mr-2'/>
                                             <span className="text-gray-700">{service.name}</span>
                                         </div>
                                     </div>
@@ -72,7 +70,7 @@ const PreEngg = () => {
                         </div>
 
                         {/* Construction Image */}
-                        <div className="md:w-2/3">
+                        <div className="md:w-2/2 md:ml-6">
                             <img
                                 src="/pre-engg-img1.png"
                                 alt="Construction site with workers in yellow safety vests and helmets reviewing plans at a building site"

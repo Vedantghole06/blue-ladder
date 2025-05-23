@@ -322,51 +322,55 @@ const AboutPeb = () => {
             </div>
 
 
+
+            <h1 className="text-2xl md:text-3xl font-bold text-center mt-10 mb-10 text-black">
+                Innovation in Construction: Advancing Building Techniques with PEB
+            </h1>
             <div className="relative w-full max-w-7xl mx-auto px-6 py-10 text-gray-700">
                 {/* Background Image with Overlay */}
                 <div
                     className="absolute inset-0 z-0 opacity-10"
                     style={{
-                        backgroundImage: "url(/pre-engg-bg.png')",
-                        backgroundSize: "cover",
+                        backgroundImage: "url(/pre-engg-bg.png)",
+                        backgroundSize: "contain",
                         backgroundPosition: "center",
                         backgroundRepeat: "no-repeat",
-                        opacity: 0.1
+                        opacity: 0.08,
+                        transform: "scaleX(-1)"
+
                     }}
                 />
 
                 {/* Content */}
                 <div className="relative z-10 ">
-                    <h1 className="text-2xl md:text-3xl font-bold text-center mb-10 text-black">
-                        Innovation in Construction: Advancing Building Techniques with PEB
-                    </h1>
+
 
                     <ul className="space-y-6">
                         <li className="flex items-start">
                             <span className="text-lg mr-2 mt-0.5">•</span>
                             <div>
-                                <span className="font-medium text-lg">Energy Efficiency:</span> Sustainability is being taken into account heavily when planning construction projects. In this regard, PEB constructions shine because they make it simple to incorporate energy-saving measures like insulation, natural lighting, and ventilation systems. These improvements lower energy use, which lowers operating expenses and lowers the carbon footprint.
+                                Energy Efficiency: Sustainability is being taken into account heavily when planning construction projects. In this regard, PEB constructions shine because they make it simple to incorporate energy-saving measures like insulation, natural lighting, and ventilation systems. These improvements lower energy use, which lowers operating expenses and lowers the carbon footprint.
                             </div>
                         </li>
 
                         <li className="flex items-start">
                             <span className="text-lg mr-2 mt-0.5">•</span>
                             <div>
-                                <span className="font-medium text-lg">Expandability and Portability:</span> PEB structures have the benefit of being expandable in the future. As your business expands, PEB systems may be readily updated and expanded, whether you need to add new sections or increase the floor area. Additionally, because these buildings are modular in design, they can be disassembled and relocated as needed, making them a desirable alternative for companies that may need to relocate their offices in the future.
+                                Expandability and Portability: PEB structures have the benefit of being expandable in the future. As your business expands, PEB systems may be readily updated and expanded, whether you need to add new sections or increase the floor area. Additionally, because these buildings are modular in design, they can be disassembled and relocated as needed, making them a desirable alternative for companies that may need to relocate their offices in the future.
                             </div>
                         </li>
 
                         <li className="flex items-start">
                             <span className="text-lg mr-2 mt-0.5">•</span>
                             <div>
-                                <span className="font-medium text-lg">Design Flexibility:</span> Contrary to popular belief, PEB structures are not constrained to simple box-like geometries. These structures provide an astonishing degree of design versatility, accommodating many architectural styles and practical needs. Large clear spans, multi-story structures, or custom configurations can all be simply added to PEB systems to suit your unique design requirements.
+                                Design Flexibility: Contrary to popular belief, PEB structures are not constrained to simple box-like geometries. These structures provide an astonishing degree of design versatility, accommodating many architectural styles and practical needs. Large clear spans, multi-story structures, or custom configurations can all be simply added to PEB systems to suit your unique design requirements.
                             </div>
                         </li>
 
                         <li className="flex items-start">
                             <span className="text-lg mr-2 mt-0.5">•</span>
                             <div>
-                                <span className="font-medium text-lg">Safety and Structural Integrity:</span> These factors are prioritized while designing PEB structures in order to endure harsh environmental conditions. These buildings are built to endure seismic pressures, strong winds, and large snow loads, giving residents peace of mind and protecting priceless possessions. High-strength steel, which is what is used in PEBs, guarantees a sturdy framework that will stand the test of time.
+                                Safety and Structural Integrity: These factors are prioritized while designing PEB structures in order to endure harsh environmental conditions. These buildings are built to endure seismic pressures, strong winds, and large snow loads, giving residents peace of mind and protecting priceless possessions. High-strength steel, which is what is used in PEBs, guarantees a sturdy framework that will stand the test of time.
                             </div>
                         </li>
                     </ul>
