@@ -103,11 +103,11 @@ const AboutPeb = () => {
                             </div>
 
                             <div className="flex items-center justify-center mt-6 md:mt-0">
-                                <div className="w-full max-w-md">
+                                <div className="w-full max-w-lg">
                                     <img
-                                        src="/api/placeholder/400/320"
+                                        src="/peb-concept.png"
                                         alt="PEB building diagram"
-                                        className="w-full object-contain"
+                                        className="w-full object-cover"
                                     />
                                 </div>
                             </div>
@@ -118,10 +118,119 @@ const AboutPeb = () => {
 
 
 
+                <div className="max-w-7xl mx-auto p-4 md:p-6 lg:p-8 relative">
+                    {/* Background watermark effect */}
+                    <div className="absolute inset-0 opacity-5 pointer-events-none z-0 overflow-hidden">
+                        <img
+                            src="/bg-pattern.jpeg"
+                            alt=""
+                            width={800}
+                            height={800}
+                            className="w-full h-full object-cover"
+                        />
+                    </div>
+
+                    <div className="relative z-10">
+                        {/* Main content grid */}
+                        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            {/* Left column with images */}
+                            <div className="space-y-2">
+                                {/* Top grid of 3 images */}
+                                <div className="grid grid-cols-2 gap-2">
+                                    {/* Left image - takes full height */}
+                                    <div className="col-span-1">
+                                        <img
+                                            src="/peb-left-img.jpg"
+                                            alt="PEB exterior building view"
+                                            width={200}
+                                            height={100}
+                                            className="w-full h-full object-cover rounded-sm"
+                                        />
+                                    </div>
+                                    {/* Right column with two stacked images */}
+                                    <div className="col-span-1 flex flex-col gap-2">
+                                        <div className="h-1/2">
+                                            <img
+                                                src="/peb-right-img1.jpg"
+                                                alt="PEB building with red accent"
+                                                width={300}
+                                                height={50}
+                                                className="w-full h-full object-cover rounded-sm"
+                                            />
+                                        </div>
+                                        <div className="h-1/2">
+                                            <img
+                                                src="/peb-right-img2.png"
+                                                alt="PEB interior steel structure"
+                                                width={300}
+                                                height={50}
+                                                className="w-full h-full object-cover rounded-sm"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Bottom larger image */}
+                                <div>
+                                    <img
+                                        src="/peb-bottom-img.png"
+                                        alt="PEB steel frame structure"
+                                        width={200}
+                                        height={100}
+                                        className="w-full h-auto object-cover rounded-sm"
+                                    />
+                                </div>
+                            </div>
+
+                            {/* Right column with text content */}
+                            <div className="space-y-4">
+                                <p className="text-base md:text-lg text-gray-800">
+                                    Pre-engineered Buildings (PEBs) are a common option for construction projects for a variety of factors.
+                                </p>
+
+                                <ul className="list-disc pl-5 space-y-4">
+                                    <li className="text-base text-gray-800">
+                                        <span className="font-medium">Cost-effectiveness:</span> Compared to conventional building techniques,
+                                        PEB construction is typically more affordable. This is due to the fact that the components are
+                                        manufactured in a factory, allowing for more productive production and lower labor costs.
+                                    </li>
+
+                                    <li className="text-base text-gray-800">
+                                        <span className="font-medium">Durability:</span> PEB structures are renowned for their longevity and
+                                        durability. They are built to withstand harsh weather conditions and other difficulties using steel of
+                                        the highest quality.
+                                    </li>
+
+                                    <li className="text-base text-gray-800">
+                                        <span className="font-medium">Versatility:</span> PEB structures can be altered to accommodate a
+                                        project's unique requirements. This means that they can be applied to a variety of settings, such as
+                                        warehouses, factories, offices, and more.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Bottom additional bullet points - full width */}
+                        <ul className="list-disc pl-5 mt-6 space-y-4">
+                            <li className="text-base text-gray-800">
+                                <span className="font-medium">Faster construction:</span> PEB construction can be finished more rapidly than
+                                with conventional building techniques since the components are manufactured in a factory and then shipped to
+                                the site for assembly. This is especially advantageous for businesses that need to launch as soon as
+                                feasible.
+                            </li>
+
+                            <li className="text-base text-gray-800">
+                                <span className="font-medium">Sustainable:</span> PEB structures are a type of sustainable building. When a
+                                PEB building reaches the end of its useful life, it can be disassembled, recycled, or used again. Steel is a
+                                recyclable resource.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
 
 
-                <div className="max-w-4xl mx-auto p-6 bg-white">
+                {/* <div className="max-w-4xl mx-auto p-6 bg-white">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mb-4">
                         <div className="col-span-1">
                             <img
@@ -209,7 +318,7 @@ const AboutPeb = () => {
                             </li>
                         </ul>
                     </div>
-                </div>
+                </div> */}
             </div>
 
 

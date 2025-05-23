@@ -249,14 +249,12 @@ const PreEngg = () => {
                             {/* Wall Sheet */}
                             <div className="flex">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="w-6 h-6 rounded-full border border-blue-600 flex items-center justify-center">
-                                        <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                                    </div>
+                                    <img src="/arrow-right.png" alt="" className='w-6 h-6'/>
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="font-medium">Wall Sheet:</h3>
-                                    <p className="text-gray-600 mt-1">
-                                        Wall sheets form the outer skin of a PEB structure, offering both aesthetic appeal and functional
+                                   
+                                    <p className="text-black mt-1">
+                                       Wall Sheet: Wall sheets form the outer skin of a PEB structure, offering both aesthetic appeal and functional
                                         protection. They play a crucial role in maintaining the building's insulation, ensuring energy
                                         efficiency while safeguarding the interior from external elements.
                                     </p>
@@ -266,14 +264,11 @@ const PreEngg = () => {
                             {/* Fascias */}
                             <div className="flex">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="w-6 h-6 rounded-full border border-blue-600 flex items-center justify-center">
-                                        <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                                    </div>
+                                    <img src="/arrow-right.png" alt="" className='w-6 h-6'/>
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="font-medium">Fascias:</h3>
-                                    <p className="text-gray-600 mt-1">
-                                        Fascias enhance the visual appeal of a PEB structure by providing a clean finish to the roof and wall
+                                    <p className="text-black mt-1">
+                                        Fascias: Fascias enhance the visual appeal of a PEB structure by providing a clean finish to the roof and wall
                                         intersections. These architectural elements also help in concealing the building's gutter and drainage
                                         systems, contributing to a seamless and polished appearance.
                                     </p>
@@ -283,14 +278,11 @@ const PreEngg = () => {
                             {/* Cranes System */}
                             <div className="flex">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="w-6 h-6 rounded-full border border-blue-600 flex items-center justify-center">
-                                        <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                                    </div>
+                                    <img src="/arrow-right.png" alt="" className='w-6 h-6'/>
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="font-medium">Cranes System:</h3>
-                                    <p className="text-gray-600 mt-1">
-                                        An integral part of many PEB structures, the cranes system facilitates efficient material handling and
+                                    <p className="text-black mt-1">
+                                        Cranes System: An integral part of many PEB structures, the cranes system facilitates efficient material handling and
                                         improves the building's operational capabilities. It enables smooth movement and lifting of heavy loads,
                                         enhancing productivity in industrial settings.
                                     </p>
@@ -300,14 +292,11 @@ const PreEngg = () => {
                             {/* Girders */}
                             <div className="flex">
                                 <div className="flex-shrink-0 mt-1">
-                                    <div className="w-6 h-6 rounded-full border border-blue-600 flex items-center justify-center">
-                                        <div className="w-2 h-2 rounded-full bg-blue-600"></div>
-                                    </div>
+                                    <img src="/arrow-right.png" alt="" className='w-6 h-6'/>
                                 </div>
                                 <div className="ml-4">
-                                    <h3 className="font-medium">Girders:</h3>
-                                    <p className="text-gray-600 mt-1">
-                                        Girders are essential structural members that support the weight of the roof and transfer it to the
+                                    <p className="text-black mt-1">
+                                        Girders: Girders are essential structural members that support the weight of the roof and transfer it to the
                                         columns. These horizontal beams are critical for maintaining the structural integrity and stability of
                                         the PEB, ensuring its ability to withstand loads and forces.
                                     </p>

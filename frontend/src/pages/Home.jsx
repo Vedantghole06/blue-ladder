@@ -631,64 +631,98 @@ const Home = () => {
 
             {/* WhyChooseUsSection */}
 
-            <div className="max-w-6xl mx-auto px-4 py-12">
-                <div className="text-center mb-10">
-                    <h2 className="text-3xl font-bold text-blue-700 mb-4">Why Choose us</h2>
-                    <p className="text-gray-600 max-w-3xl mx-auto">
-                        Our team excels in delivering cutting-edge solutions for Pre-Engineered Building
-                        systems. With a state-of-the-art manufacturing facility, we provide high-quality
-                        PEB structures and comprehensive turnkey engineering services.
-                    </p>
-                </div>
+            <div className="container mx-auto px-4 py-12 max-w-7xl">
+                <h2 className="text-center text-3xl md:text-4xl font-medium text-[#345CA5] mb-6">Why Choose us</h2>
 
-                <div className="grid grid-cols-1 lg:grid-cols-3 gap-4">
-                    {/* Stats and text column (left side) */}
-                    <div className="col-span-1">
-                        <div className="border-t border-gray-200">
-                            <div className="py-6 px-4 border-b border-gray-200">
-                                <h3 className="text-3xl font-bold text-blue-600">700<span className="text-blue-400">+</span></h3>
-                                <p className="text-gray-600">Total Projects</p>
+                <p className="text-center text-gray-600 max-w-3xl mx-auto mb-12">
+                    Our team excels in delivering cutting-edge solutions for Pre-Engineered Building systems. With a
+                    state-of-the-art manufacturing facility, we provide high-quality PEB structures and comprehensive turnkey
+                    engineering services.
+                </p>
+
+                <div className="flex flex-col md:flex-row">
+                    {/* Left side - Stats */}
+                    <div className="md:w-1/2">
+                        <div className="grid grid-cols-1 md:grid-cols-2 border-t border-l border-r md:border-r-0 border-gray-200">
+                            {/* Stat 1 */}
+                            <div className="p-8 border-b border-r border-gray-200">
+                                <h3 className="text-4xl font-bold text-[#345CA5]">
+                                    700<span className="text-[#345CA5]">+</span>
+                                </h3>
+                                <p className="text-gray-500 mt-2">Total Projects</p>
+                            </div>
+
+                            {/* Stat 2 */}
+                            <div className="p-8 border-b border-gray-200">
+                                <h3 className="text-4xl font-bold text-[#345CA5]">
+                                    300<span className="text-[#345CA5]">+</span>
+                                </h3>
+                                <p className="text-gray-500 mt-2">Professional Team Member</p>
+                            </div>
+
+                            {/* Stat 3 */}
+                            <div className="p-8 border-b md:border-b-0 border-r border-gray-200">
+                                <h3 className="text-4xl font-bold text-[#345CA5]">
+                                    1300000<span className="text-[#345CA5]">sq ft</span>
+                                </h3>
+                                <p className="text-gray-500 mt-2">Quantum Delivered</p>
+                            </div>
+
+                            {/* Stat 4 */}
+                            <div className="p-8 border-b md:border-b-0 border-gray-200">
+                                <h3 className="text-4xl font-bold text-[#345CA5]">
+                                    9<span className="text-[#345CA5]">+</span>
+                                </h3>
+                                <p className="text-gray-500 mt-2">Regional Office</p>
                             </div>
                         </div>
 
-                        <div className="border-b border-gray-200">
-                            <div className="py-6 px-4">
-                                <h3 className="text-3xl font-bold text-blue-600">300<span className="text-blue-400">+</span></h3>
-                                <p className="text-gray-600">Professional Team Member</p>
-                            </div>
-                        </div>
-
-                        <div className="border-b border-gray-200">
-                            <div className="py-6 px-4">
-                                <h3 className="text-3xl font-bold text-blue-600">1300000<span className="text-blue-400">sq ft</span></h3>
-                                <p className="text-gray-600">Quantum Delivered</p>
-                            </div>
-                        </div>
-
-                        <div className="border-b border-gray-200">
-                            <div className="py-6 px-4">
-                                <h3 className="text-3xl font-bold text-blue-600">9<span className="text-blue-400">+</span></h3>
-                                <p className="text-gray-600">Regional Office</p>
-                            </div>
-                        </div>
-
-                        <div className="py-6 px-4">
+                        <div className="mt-8 px-4">
                             <p className="text-gray-600 mb-6">
-                                We Work Together With Our Clients To Design And Construct Homes And Surroundings That Match Their Values And Way Of Life.
+                                We Work Together With Our Clients To Design And Construct Homes And Surroundings That Match Their Values
+                                And Way Of Life.
                             </p>
-                            <button className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded uppercase text-sm">
-                                Explore More
+
+                            <button
+                                className="bg-[#345CA5] text-white font-bold uppercase tracking-wider py-5 px-14 text-sm relative"
+                                style={{
+                                    clipPath: "polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%)",
+                                    borderRadius: "10px 10px 40px 10px",
+                                }}
+                            >
+                                EXPLORE MORE
                             </button>
                         </div>
                     </div>
 
-                    {/* Single image column (right side) */}
-                    <div className="col-span-2">
-                        <img
-                            src="/home-img.png"
-                            alt="building images"
-                            className="w-full h-full object-cover rounded-2xl max-h-screen md:max-h-full"
-                        />
+                    {/* Right side - Images */}
+                    <div className="md:w-1/2 mt-8 md:mt-0 flex gap-2 h-full">
+                        {/* Left full-height image */}
+                        <div className="w-1/2 h-auto">
+                            <img
+                                src="/whychoose-left.jpg"
+                                alt="Modern building exterior"
+                                className="w-full h-full object-cover"
+                            />
+                        </div>
+
+                        {/* Right side with two half-height images */}
+                        <div className="w-1/2 flex flex-col gap-2">
+                            <div className="h-1/4">
+                                <img
+                                    src="whychoose-right1.png"
+                                    alt="Glass building architecture"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            <div className="h-full">
+                                <img
+                                    src="whychoose-right2.jpg"
+                                    alt="City skyscrapers"
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
